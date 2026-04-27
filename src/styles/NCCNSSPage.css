@@ -1,0 +1,249 @@
+.ncc-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero */
+.ncc-hero {
+  background: linear-gradient(135deg, var(--lpu-black) 0%, #1a2a4a 100%);
+  padding: clamp(120px, 15vw, 180px) 20px clamp(60px, 8vw, 100px);
+  text-align: center;
+}
+
+.ncc-breadcrumb {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.ncc-breadcrumb a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.ncc-breadcrumb a:hover {
+  color: var(--lpu-orange);
+}
+
+.ncc-breadcrumb span {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.ncc-badge {
+  display: inline-block;
+  background: rgba(232, 185, 25, 0.15);
+  color: var(--lpu-orange);
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  border: 1px solid rgba(232, 185, 25, 0.3);
+}
+
+.ncc-hero h1 {
+  color: white !important;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.ncc-hero-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Body */
+.ncc-body {
+  padding: clamp(60px, 10vw, 100px) 20px;
+}
+
+/* Section Cards */
+.ncc-section-card,
+.nss-section-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  margin-bottom: 60px;
+  border-left: 6px solid var(--lpu-orange);
+}
+
+.nss-section-card {
+  border-left-color: #3b82f6;
+}
+
+.ncc-section-header,
+.nss-section-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.ncc-section-icon,
+.nss-section-icon {
+  font-size: 4rem;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.ncc-section-header h2,
+.nss-section-header h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 900;
+  color: var(--lpu-black) !important;
+  margin-bottom: 8px;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.ncc-section-subtitle,
+.nss-section-subtitle {
+  font-size: 1rem;
+  color: var(--lpu-orange);
+  font-weight: 700;
+  font-style: italic;
+  font-family: var(--font-body);
+  text-transform: none;
+}
+
+.nss-section-subtitle {
+  color: #3b82f6;
+}
+
+.ncc-section-desc,
+.nss-section-desc {
+  font-size: 1.05rem;
+  color: #555;
+  line-height: 1.8;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* Activities Section */
+.ncc-activities-section {
+  margin-bottom: 60px;
+}
+
+.ncc-subsection-title {
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+  font-weight: 900;
+  color: var(--lpu-black) !important;
+  text-align: center;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+}
+
+.ncc-activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .ncc-activities-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ncc-activities-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ncc-activity-card {
+  background: white;
+  border-radius: 20px;
+  padding: 35px 25px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-top: 4px solid var(--lpu-orange);
+}
+
+.ncc-activity-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.ncc-activity-icon-wrapper {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 20px;
+  background: linear-gradient(135deg, #fff5e6 0%, #ffe8cc 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 25px rgba(232, 185, 25, 0.2);
+  transition: all 0.3s ease;
+}
+
+.ncc-activity-card:hover .ncc-activity-icon-wrapper {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.ncc-activity-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.ncc-activity-title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--lpu-black);
+  margin-bottom: 10px;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.ncc-activity-desc {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ncc-section-card,
+  .nss-section-card {
+    padding: 30px 25px;
+  }
+
+  .ncc-section-header,
+  .nss-section-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .ncc-activities-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .ncc-body {
+    padding-bottom: 120px;
+  }
+}

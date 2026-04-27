@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+
+<head>
+  <!-- <title>Chhatrapati Shahu Ji Maharaj University, Kanpur</title> -->
+  <title> | Association of Indian Universities</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Welcome to the website of Association of Indian Universities">
+  <meta name='robots' content='max-image-preview:large' />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='megamenu-css' href='https://aiu.ac.in/wp-content/uploads/maxmegamenu/style.css?ver=2a6b02' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://aiu.ac.in/wp-includes/css/dashicons.min.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slickstyle-css' href='https://aiu.ac.in/wp-content/themes/aiutheme/thirdparty/slick/slick.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='slickthemestyle-css' href='https://aiu.ac.in/wp-content/themes/aiutheme/thirdparty/slick/slick-theme.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='aiumainstylesheet-css' href='https://aiu.ac.in/wp-content/themes/aiutheme/style.css?ver=6.9.4' type='text/css' media='all' />
+<style id='wp-block-paragraph-inline-css' type='text/css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://aiu.ac.in/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<link rel='stylesheet' id='popup-maker-site-css' href='https://aiu.ac.in/wp-content/plugins/popup-maker/assets/css/pum-site.min.css?ver=1.20.4' type='text/css' media='all' />
+<style id='popup-maker-site-inline-css' type='text/css'>
+/* Popup Google Fonts */
+@import url('//fonts.googleapis.com/css?family=Montserrat:100');
+
+/* Popup Theme 628: Default Theme */
+.pum-theme-628, .pum-theme-default-theme { background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-628 .pum-container, .pum-theme-default-theme .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 249, 249, 249, 1.00 ) } 
+.pum-theme-628 .pum-title, .pum-theme-default-theme .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; font-style: normal; line-height: 36px } 
+.pum-theme-628 .pum-content, .pum-theme-default-theme .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400; font-style: inherit } 
+.pum-theme-628 .pum-content + .pum-close, .pum-theme-default-theme .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: 0px; bottom: auto; top: 0px; padding: 8px; color: #ffffff; font-family: inherit; font-weight: 400; font-size: 12px; font-style: inherit; line-height: 36px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 183, 205, 1.00 ) } 
+
+/* Popup Theme 629: Light Box */
+.pum-theme-629, .pum-theme-lightbox { background-color: rgba( 0, 0, 0, 0.60 ) } 
+.pum-theme-629 .pum-container, .pum-theme-lightbox .pum-container { padding: 18px; border-radius: 3px; border: 8px solid #000000; box-shadow: 0px 0px 30px 0px rgba( 2, 2, 2, 1.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-629 .pum-title, .pum-theme-lightbox .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-629 .pum-content, .pum-theme-lightbox .pum-content { color: #000000; font-family: inherit; font-weight: 100 } 
+.pum-theme-629 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 26px; width: 26px; left: auto; right: -13px; bottom: auto; top: -13px; padding: 0px; color: #ffffff; font-family: Arial; font-weight: 100; font-size: 24px; line-height: 24px; border: 2px solid #ffffff; border-radius: 26px; box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 1.00 ) } 
+
+/* Popup Theme 630: Enterprise Blue */
+.pum-theme-630, .pum-theme-enterprise-blue { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-630 .pum-container, .pum-theme-enterprise-blue .pum-container { padding: 28px; border-radius: 5px; border: 1px none #000000; box-shadow: 0px 10px 25px 4px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-630 .pum-title, .pum-theme-enterprise-blue .pum-title { color: #315b7c; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 34px; line-height: 36px } 
+.pum-theme-630 .pum-content, .pum-theme-enterprise-blue .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-630 .pum-content + .pum-close, .pum-theme-enterprise-blue .pum-content + .pum-close { position: absolute; height: 28px; width: 28px; left: auto; right: 8px; bottom: auto; top: 8px; padding: 4px; color: #ffffff; font-family: Times New Roman; font-weight: 100; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 42px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 49, 91, 124, 1.00 ) } 
+
+/* Popup Theme 631: Hello Box */
+.pum-theme-631, .pum-theme-hello-box { background-color: rgba( 0, 0, 0, 0.75 ) } 
+.pum-theme-631 .pum-container, .pum-theme-hello-box .pum-container { padding: 30px; border-radius: 80px; border: 14px solid #81d742; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+.pum-theme-631 .pum-title, .pum-theme-hello-box .pum-title { color: #2d2d2d; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Montserrat; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-631 .pum-content, .pum-theme-hello-box .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-631 .pum-content + .pum-close, .pum-theme-hello-box .pum-content + .pum-close { position: absolute; height: auto; width: auto; left: auto; right: -30px; bottom: auto; top: -30px; padding: 0px; color: #2d2d2d; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 28px; border: 1px none #ffffff; border-radius: 28px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
+
+/* Popup Theme 632: Cutting Edge */
+.pum-theme-632, .pum-theme-cutting-edge { background-color: rgba( 0, 0, 0, 0.50 ) } 
+.pum-theme-632 .pum-container, .pum-theme-cutting-edge .pum-container { padding: 18px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 10px 25px 0px rgba( 2, 2, 2, 0.50 ); background-color: rgba( 30, 115, 190, 1.00 ) } 
+.pum-theme-632 .pum-title, .pum-theme-cutting-edge .pum-title { color: #ffffff; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: Sans-Serif; font-weight: 100; font-size: 26px; line-height: 28px } 
+.pum-theme-632 .pum-content, .pum-theme-cutting-edge .pum-content { color: #ffffff; font-family: inherit; font-weight: 100 } 
+.pum-theme-632 .pum-content + .pum-close, .pum-theme-cutting-edge .pum-content + .pum-close { position: absolute; height: 24px; width: 24px; left: auto; right: 0px; bottom: auto; top: 0px; padding: 0px; color: #1e73be; font-family: Times New Roman; font-weight: 100; font-size: 32px; line-height: 24px; border: 1px none #ffffff; border-radius: 0px; box-shadow: -1px 1px 1px 0px rgba( 2, 2, 2, 0.10 ); text-shadow: -1px 1px 1px rgba( 0, 0, 0, 0.10 ); background-color: rgba( 238, 238, 34, 1.00 ) } 
+
+/* Popup Theme 633: Framed Border */
+.pum-theme-633, .pum-theme-framed-border { background-color: rgba( 255, 255, 255, 0.50 ) } 
+.pum-theme-633 .pum-container, .pum-theme-framed-border .pum-container { padding: 18px; border-radius: 0px; border: 20px outset #dd3333; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.97 ) inset; background-color: rgba( 255, 251, 239, 1.00 ) } 
+.pum-theme-633 .pum-title, .pum-theme-framed-border .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 100; font-size: 32px; line-height: 36px } 
+.pum-theme-633 .pum-content, .pum-theme-framed-border .pum-content { color: #2d2d2d; font-family: inherit; font-weight: 100 } 
+.pum-theme-633 .pum-content + .pum-close, .pum-theme-framed-border .pum-content + .pum-close { position: absolute; height: 20px; width: 20px; left: auto; right: -20px; bottom: auto; top: -20px; padding: 0px; color: #ffffff; font-family: Tahoma; font-weight: 700; font-size: 16px; line-height: 18px; border: 1px none #ffffff; border-radius: 0px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.23 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23 ); background-color: rgba( 0, 0, 0, 0.55 ) } 
+
+/* Popup Theme 634: Floating Bar - Soft Blue */
+.pum-theme-634, .pum-theme-floating-bar { background-color: rgba( 255, 255, 255, 0.00 ) } 
+.pum-theme-634 .pum-container, .pum-theme-floating-bar .pum-container { padding: 8px; border-radius: 0px; border: 1px none #000000; box-shadow: 1px 1px 3px 0px rgba( 2, 2, 2, 0.23 ); background-color: rgba( 238, 246, 252, 1.00 ) } 
+.pum-theme-634 .pum-title, .pum-theme-floating-bar .pum-title { color: #505050; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-634 .pum-content, .pum-theme-floating-bar .pum-content { color: #505050; font-family: inherit; font-weight: 400 } 
+.pum-theme-634 .pum-content + .pum-close, .pum-theme-floating-bar .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 5px; bottom: auto; top: 50%; padding: 0px; color: #505050; font-family: Sans-Serif; font-weight: 700; font-size: 15px; line-height: 18px; border: 1px solid #505050; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ); transform: translate(0, -50%) } 
+
+/* Popup Theme 635: Content Only - For use with page builders or block editor */
+.pum-theme-635, .pum-theme-content-only { background-color: rgba( 0, 0, 0, 0.70 ) } 
+.pum-theme-635 .pum-container, .pum-theme-content-only .pum-container { padding: 0px; border-radius: 0px; border: 1px none #000000; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ) } 
+.pum-theme-635 .pum-title, .pum-theme-content-only .pum-title { color: #000000; text-align: left; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.23 ); font-family: inherit; font-weight: 400; font-size: 32px; line-height: 36px } 
+.pum-theme-635 .pum-content, .pum-theme-content-only .pum-content { color: #8c8c8c; font-family: inherit; font-weight: 400 } 
+.pum-theme-635 .pum-content + .pum-close, .pum-theme-content-only .pum-content + .pum-close { position: absolute; height: 18px; width: 18px; left: auto; right: 7px; bottom: auto; top: 7px; padding: 0px; color: #000000; font-family: inherit; font-weight: 700; font-size: 20px; line-height: 20px; border: 1px none #ffffff; border-radius: 15px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 0.00 ) } 
+
+#pum-637 {z-index: 1999999999}
+#pum-1580 {z-index: 1999999999}
+#pum-636 {z-index: 1999999999}
+
+/*# sourceURL=popup-maker-site-inline-css */
+</style>
+<script type="text/javascript" src="https://aiu.ac.in/wp-content/themes/aiutheme/thirdparty/jquery/jquery.min.js?ver=6.9.4" id="jquery-js"></script>
+<script type="text/javascript" src="https://aiu.ac.in/wp-content/themes/aiutheme/thirdparty/jquery/jquery-ui.js?ver=6.9.4" id="jquery-ui-js"></script>
+<script type="text/javascript" src="https://aiu.ac.in/wp-content/themes/aiutheme/thirdparty/slick/slick.min.js?ver=6.9.4" id="slick-js"></script>
+<link rel="https://api.w.org/" href="https://aiu.ac.in/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://aiu.ac.in/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel="icon" href="https://aiu.ac.in/wp-content/uploads/2024/10/aiu-logo-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://aiu.ac.in/wp-content/uploads/2024/10/aiu-logo-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://aiu.ac.in/wp-content/uploads/2024/10/aiu-logo-300x300.png" />
+<meta name="msapplication-TileImage" content="https://aiu.ac.in/wp-content/uploads/2024/10/aiu-logo-300x300.png" />
+<style type="text/css">/** Mega Menu CSS: fs **/</style>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" integrity="sha512-rqQltXRuHxtPWhktpAZxLHUVJ3Eombn3hvk9PHjV/N5DMUYnzKPC1i3ub0mEXgFzsaZNeJcoE0YHq0j/GFsdGg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="error404 wp-theme-aiutheme mega-menu-primary-menu metaslider-plugin">
+
+ 
+
+<!-- Created By Vijay Agarwal -->
+<!--Header Menu Section Start-->
+<section id="header-menu">
+ <!-- Header Container Start -->
+<div class="container-fluid">
+      <!--Menu Row Start-->
+         <!--Menu Row Start-->
+   <div class="row">
+        <div class="col-md-12 px-0">
+          <div class="top-bar text-end">
+			  <a href="https://aiu.ac.in/research/aiu-anveshan-2025-26/">Anveshan 2025</a>
+			  <a href="https://aiu.ac.in/wp-content/uploads/docs/2026/03/AIU_Empanelled_Hospital_Data-1.pdf">AIU Empanelled Hospitals</a> 
+			  <a href=" https://aiu.ac.in/aiu-payments/">Payments</a>
+			  <a href="https://payment.aiu.ac.in/payment/paynow?id=17"  class="popmake-637">Annual Subscription Letters</a>
+			  <a href="https://aiu.refread.com/#/home" class="">AIU e-Library</a>
+			  <a href="http://115.241.97.147/">AIU OPAC</a> 
+			  <a href="https://aiu.ac.in/aius-facilities/">AIU Facilities</a>
+           	  <a href="https://aiu.ac.in/frontpage/faqs/" >FAQ</a>
+              <a href="https://aiu.ac.in/frontpage/rti/" >RTI</a>
+              <a href="https://aiu.ac.in/topbar/tenders-and-procurements/">Tenders</a>
+              <a href="https://aiu.ac.in/topbar/recruitments/" >Recruitment</a>
+              <a href="https://university.aiu.ac.in/University" >Member Login</a>
+				<a href="https://ugccare.unipune.ac.in/" >UGC Care</a>
+			  <a href="https://aiu.ac.in/edify-online/">Edify Online</a>
+          </div>
+        </div>
+      
+    </div> 
+      <!--Menu Row End-->      <!--Menu Row End-->
+
+      <!--Logo Row Start-->
+        <div class="row">
+        <div class="col-md-12" id="header-logo">
+              <div class="row  px-0"> <!-- Row Start -->
+                <!--
+                <div class="col-md-12 text-center" style="height:30px;background-color:black;color:white;font-weight:bold;">
+                    Access The Old Website of AIU >>> <a href="/index_old.php">Click Here</a> 
+                </div>
+                <div class="col-md-12 text-center" style="height:40px;background-color:#eeeeee;color:white;font-weight:bold;">
+                    <a href="https://aiu.ac.in/misc-pages/aiu-anveshan-2024/" class="btn btn-sm btn-danger my-2">AIU ANVESHAN 2024</a> 
+                </div>
+                -->
+                <div class="col-md-12 header-logo-image py-2 text-center" style="background-color:#f7f7f7">
+                  <a href="https://aiu.ac.in">
+                    <img class="img-fluid" src="https://aiu.ac.in/wp-content/uploads/2024/07/aiu-header.png" style="width:50%;">
+                  </a>
+                </div>
+
+                <div class=" col-12 col-md-12 pt-0 px-0 menu-container">
+                    <div id="mega-menu-wrap-primary-menu" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0' id='mega-toggle-block-0'><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-primary-menu" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="fade_up" data-effect-speed="200" data-effect-mobile="disabled" data-effect-speed-mobile="0" data-mobile-force-width="false" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="standard" data-breakpoint="768" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100"><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-home mega-align-bottom-left mega-menu-flyout mega-menu-item-295' id='mega-menu-item-295'><a class="mega-menu-link" href="https://aiu.ac.in/" tabindex="0">Home</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-37' id='mega-menu-item-37'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">About AIU<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-35' id='mega-menu-item-35'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/genesis/">Genesis</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-36' id='mega-menu-item-36'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/vision-mission/">Vision & Mission</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-40' id='mega-menu-item-40'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/objectives/">Objectives</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-41' id='mega-menu-item-41'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/regulations/">Regulations</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-item-1392' id='mega-menu-item-1392'><a class="mega-menu-link" href="https://aiu.ac.in/membership/" aria-haspopup="true" aria-expanded="false">AIU Membership<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-42' id='mega-menu-item-42'><a class="mega-menu-link" href="https://aiu.ac.in/frontpage/aiu-member-universities-as-on-date/">Universities</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1394' id='mega-menu-item-1394'><a class="mega-menu-link" href="https://aiu.ac.in/associate-membership-of-autonomous-colleges-of-aiu-as-on-date/">Autonomous Colleges</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-44' id='mega-menu-item-44'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/president/">President</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-45' id='mega-menu-item-45'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/secretary-general/">Secretary General</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-46' id='mega-menu-item-46'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/annual-reports/">Annual Reports</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-848' id='mega-menu-item-848'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Governance<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-855' id='mega-menu-item-855'><a class="mega-menu-link" href="https://aiu.ac.in/governance/the-governing-council/">The Governing Council</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-849' id='mega-menu-item-849'><a class="mega-menu-link" href="https://aiu.ac.in/governance/establishment-committee-earlier-staff-affairs-committee/">Establishment Committee (Earlier Staff Affairs Committee)</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-850' id='mega-menu-item-850'><a class="mega-menu-link" href="https://aiu.ac.in/governance/sports-board/">Sports Board</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-851' id='mega-menu-item-851'><a class="mega-menu-link" href="https://aiu.ac.in/governance/cultural-committee/">Cultural Committee</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-852' id='mega-menu-item-852'><a class="mega-menu-link" href="https://aiu.ac.in/governance/equivalence-commitee/">Equivalence Commitee</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-853' id='mega-menu-item-853'><a class="mega-menu-link" href="https://aiu.ac.in/governance/research-commitee/">Research Commitee</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-854' id='mega-menu-item-854'><a class="mega-menu-link" href="https://aiu.ac.in/governance/finance-commitee/">Finance Commitee</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-governance mega-menu-item-856' id='mega-menu-item-856'><a class="mega-menu-link" href="https://aiu.ac.in/governance/the-general-body/">The General Body</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-28' id='mega-menu-item-28'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Organisation<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-47' id='mega-menu-item-47'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/admiinistration/">Administration</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-item-48' id='mega-menu-item-48'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false">Finance<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-140' id='mega-menu-item-140'><a class="mega-menu-link" href="https://www.aiu.ac.in/finance/finance-division/">Finance Division</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-141' id='mega-menu-item-141'><a class="mega-menu-link" href="https://www.aiu.ac.in/finance/annual-accounts/">Annual Accounts</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-142' id='mega-menu-item-142'><a class="mega-menu-link" href="https://www.aiu.ac.in/finance/minutes-of-the-finance-committee/">Minutes Of The Finance Committee</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-49' id='mega-menu-item-49'><a class="mega-menu-link" href="#">Library</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-50' id='mega-menu-item-50'><a class="mega-menu-link" href="https://www.aiu.ac.in/frontpage/meetings/">Meetings</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-research mega-align-bottom-left mega-menu-flyout mega-menu-item-191' id='mega-menu-item-191'><a class="mega-menu-link" href="https://aiu.ac.in/research/publication-and-sales/" tabindex="0">Publication And Sales</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-29' id='mega-menu-item-29'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Research<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-51' id='mega-menu-item-51'><a class="mega-menu-link" href="https://www.aiu.ac.in/research/research-division/">Research Division</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1224' id='mega-menu-item-1224'><a class="mega-menu-link" href="https://aiu.ac.in/research/aiu-anveshan-2025-26/">AIU ANVESHAN 2025-26</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-151' id='mega-menu-item-151'><a class="mega-menu-link" href="https://www.aiu.ac.in/research/minutes-of-the-research-committee/">Minutes of Meetings</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1219' id='mega-menu-item-1219'><a class="mega-menu-link" href="https://aiu.ac.in/misc-pages/aiu-anveshan-2024/">AIU ANVESHAN 2024-25</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-research mega-menu-item-156' id='mega-menu-item-156'><a class="mega-menu-link" href="https://aiu.ac.in/research/anveshan-2023-24/">AIU ANVESHAN 2023-24</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-frontpage mega-menu-item-161' id='mega-menu-item-161'><a class="mega-menu-link" href="https://aiu.ac.in/frontpage/university-news/">University News</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-54' id='mega-menu-item-54'><a class="mega-menu-link" href="#">International</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-199' id='mega-menu-item-199'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">AADC<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-research mega-menu-item-159' id='mega-menu-item-159'><a class="mega-menu-link" href="https://aiu.ac.in/research/academic-and-administrative-development-centres-aadc/">AADC</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-200' id='mega-menu-item-200'><a target="_blank" class="mega-menu-link" href="https://www.aiu.ac.in/documents/research/AADC%20Proforma.pdf">AADC Proforma</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-201' id='mega-menu-item-201'><a target="_blank" class="mega-menu-link" href="https://aiu.ac.in/wp-content/uploads/docs/2025/04/AADC_Guidelines.pdf">AADC Guidelines</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-758' id='mega-menu-item-758'><a class="mega-menu-link" href="https://aiu.ac.in/wp-content/uploads/docs/2025/05/MoU_2025-26_C.pdf">AADC MoU Format</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-784' id='mega-menu-item-784'><a class="mega-menu-link" href="https://aiu.ac.in/wp-content/uploads/docs/2025/04/AADC_proposal.pdf">Invitation of EOI for setup of AADC</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-31' id='mega-menu-item-31'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Sports<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1374' id='mega-menu-item-1374'><a class="mega-menu-link" href="https://aiu.ac.in/Sports%20Division.php">Sports Division</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-sports mega-menu-item-237' id='mega-menu-item-237'><a class="mega-menu-link" href="https://aiu.ac.in/sports/guidelines-rules/">Guidelines &amp; Rules</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-sports mega-menu-item-233' id='mega-menu-item-233'><a class="mega-menu-link" href="https://aiu.ac.in/sports/important-links/">Important Links</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-sports mega-menu-item-234' id='mega-menu-item-234'><a class="mega-menu-link" href="https://aiu.ac.in/sports/inter-university-sports-board-of-india/">Inter University Sports Board of India</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-sports mega-menu-item-236' id='mega-menu-item-236'><a class="mega-menu-link" href="https://aiu.ac.in/sports/minutes-of-meetings/">Minutes of Meetings</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-886' id='mega-menu-item-886'><a class="mega-menu-link" href="https://aiu.ac.in/aiu/youth-affairs/" tabindex="0">Youth Affairs</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-32' id='mega-menu-item-32'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Equivalence<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-frontpage mega-menu-item-194' id='mega-menu-item-194'><a class="mega-menu-link" href="https://aiu.ac.in/frontpage/equivalence-of-degree/">Equivalence of Degree</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-frontpage mega-menu-item-197' id='mega-menu-item-197'><a class="mega-menu-link" href="https://aiu.ac.in/frontpage/students-information-services/">Students Information Services</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-33' id='mega-menu-item-33'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">New Initiatives<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1117' id='mega-menu-item-1117'><a class="mega-menu-link" href="https://aiu.ac.in/skill-based-courses/">Skill based Courses</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-110' id='mega-menu-item-110'><a class="mega-menu-link" href="https://inihe.aiu.ac.in/">INIHE</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-101' id='mega-menu-item-101'><a class="mega-menu-link" href="https://university.aiu.ac.in/consultancy">AIU Consultancy Portal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-102' id='mega-menu-item-102'><a class="mega-menu-link" href="https://collaboration.aiu.ac.in">AIU Collaboration Portal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-103' id='mega-menu-item-103'><a class="mega-menu-link" href="https://admission.aiu.ac.in">AIU Admission Portal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-104' id='mega-menu-item-104'><a class="mega-menu-link" href="https://evaluation.aiu.ac.in/">AIU Evaluation Portal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-105' id='mega-menu-item-105'><a class="mega-menu-link" href="https://payment.aiu.ac.in/">AIU Payment Portal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-106' id='mega-menu-item-106'><a class="mega-menu-link" href="https://university.aiu.ac.in/">AIU University Portal</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-107' id='mega-menu-item-107'><a class="mega-menu-link" href="https://www.aiu.ac.in/documents/index/Qedex%20general%20letter.pdf">AIU-QEDEX Program</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-249' id='mega-menu-item-249'><a class="mega-menu-link" href="https://university.aiu.ac.in/University">Member Login</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-250' id='mega-menu-item-250'><a class="mega-menu-link" href="https://ugccare.unipune.ac.in/">UGC Care</a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-align-bottom-left mega-menu-flyout mega-menu-item-1194' id='mega-menu-item-1194'><a class="mega-menu-link" href="#" aria-haspopup="true" aria-expanded="false" tabindex="0">Internationalization<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-1195' id='mega-menu-item-1195'><a class="mega-menu-link" href="https://aiu.ac.in/international-metrics/">International Metrics</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1198' id='mega-menu-item-1198'><a class="mega-menu-link" href="https://aiu.ac.in/indian-student-and-faculty-mobility-data/">Indian Student & Faculty Mobility Data</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1202' id='mega-menu-item-1202'><a class="mega-menu-link" href="https://aiu.ac.in/international-collaborations-and-mous/">International Collaborations and MoUs</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1205' id='mega-menu-item-1205'><a class="mega-menu-link" href="https://aiu.ac.in/foreign-campuses-in-india/">Foreign Campuses in India</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1211' id='mega-menu-item-1211'><a class="mega-menu-link" href="https://aiu.ac.in/indian-universities-establishing-campuses-in-foreign-countries/">Indian Univ Campuses in Foreign</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-1208' id='mega-menu-item-1208'><a class="mega-menu-link" href="https://inihe.aiu.ac.in/">INIHE</a></li></ul>
+</li></ul></div>                </div>
+              </div> <!-- Row End -->
+          
+            
+          </div>
+        </div>
+        <!--Logo Row End-->
+
+        <!--Main Menu Row Start-->
+        <div class="row">
+        
+        </div>
+        <!--Main Menu Row End-->
+  </div>
+
+<!-- Header Container End -->
+
+</section> 
+<!--Header Menu Section End-->
+
+<div class="container-fluid table-format-one">
+    <div class="row">
+        <div class="col-12 page-header-image"></div>
+
+
+        <div class="bg-light p-5 rounded-lg m-3 text-center">
+        <h1 class="display-4 text-success">Page Under Maintenance!</h1>
+        <p class="lead text-danger">Page you are looking for is under maintenance.</p>
+        <p class="lead text-danger">Will be back soon.</p>
+        <hr class="my-4">
+      
+        <a class="btn btn-primary btn-lg" href="https://aiu.ac.in/" role="button">Go To Home Page</a>
+        </div>
+    </div>
+</div>
+
+
+
+<section id="footer-section">
+  <div class="container-fluid">
+    
+	  
+	  <div class="row">
+		  <marquee direction="left" behavior="slide" scrollamount="40" ><img class="img-fluid" src="https://aiu.ac.in/wp-content/uploads/2025/08/new-logos-for-Website1-scaled.jpg" style="width:100%;"></marquee>
+	  </div>
+	  
+	<div class="row">
+    <div class="col-md-4 footer-links-2" style="border-right:1px dashed #999999;">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="col-md-12">
+                      <a href="https://aiu.ac.in">
+                        <img class="img-fluid" src="https://aiu.ac.in/wp-content/uploads/2024/08/aiu-footer-4.png" style="width:90%;">
+                      </a>
+                      <br>
+                      <ul>
+                        <li>
+                          <span><i class="fa  fa-map-marker"></i>&nbsp;AIU HOUSE 16, Comrade Indrajit Gupta Marg
+                            <br>Opposite National Bal Bhawan,
+                            <br>Near I.T.O., New Delhi, Delhi 110002
+                          </span>
+                        </li>
+                      </ul>
+                </div>
+                    <div class="social-media col-md-12">
+                        <a href="https://twitter.com/AIUIndia" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://www.youtube.com/@AIUINDIAD" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        
+      </div>
+   
+      <div class="col-md-4 footer-links-2">
+        <div class="row">
+          <h4  class="col-md-12" style="font-weight:600px;color:#eee;">Contacts</h4>
+          <div class="col-md-12">
+              <ul>
+                <li>
+                  <span><i class="fa fa-envelope"></i>&nbsp;&nbsp;Sport Reg. Fees : recsports@gmail.com</span>
+                </li>
+                <li>
+                  <span><i class="fa fa-envelope"></i>&nbsp;&nbsp;Sport Enquiry : sports@aiu.ac.in/ or aiusportsaiu@gmail.com</span>
+                </li>
+                <li>
+                  <span><i class="fa fa-envelope"></i>&nbsp;&nbsp;Equivalence Enquiry : evaluation@aiu.ac.in</span>
+                </li>
+            </ul>
+          </div> 
+        </div> 
+       
+      </div>
+      <div class="col-md-4 footer-links-2">
+        <div class="row">
+          <h4  class="col-md-12" style="font-weight:600px;color:#eee;">Important Links</h4>
+          <div class="col-md-6">
+            <ul>
+              <li>
+                <a href="https://aiu.ac.in/frontpage/faqs/" >FAQs</a>
+              </li>
+              <li>
+                <a href="https://aiu.ac.in/frontpage/rti/" >RTI</a>
+              </li>
+              <li>
+                <a href="https://aiu.ac.in/topbar/tenders-and-procurements/" >Tenders</a>
+              </li>
+              <li>
+                <a href="https://payment.aiu.ac.in/" >Payments</a>
+              </li>
+            </ul>  
+          </div>
+          <div class="col-md-6">
+            <ul>
+              <li>
+                <a href="https://aiu.ac.in/topbar/recruitments/" >Jobs</a>
+              </li>
+              <li>
+                <a href="https://aiu.ac.in/gallery.php" >Gallery</a>
+              </li>
+              <li>
+                <a href="https://aiu.ac.in/News_Clipping.php" >News</a>
+              </li>
+              <li>
+                <a href="" >Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+  
+    </div> <!--Row End-->
+    <div class="row">
+      <div class="col-md-12 text-center" style="border-top:1px dotted white;">
+        <span>
+          If website seems slow to load, please clear your browser cookies and refresh page. 
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/aiutheme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div 
+	id="pum-637" 
+	role="dialog" 
+	aria-modal="false"
+	class="pum pum-overlay pum-theme-629 pum-theme-lightbox popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:637,&quot;slug&quot;:&quot;annual-subscription-2025-26&quot;,&quot;theme_id&quot;:629,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:&quot;1&quot;,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-637" class="pum-container popmake theme-629 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+				
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			
+<h1 style="text-align: center;"><span style="text-decoration: underline;">Notification For AIU Annual Subscription 2026-27</span></h1>
+<h2>
+
+</h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2026/03/Letter_of_Annual_Subscription_0002.pdf">1. DEMAND LETTER- MEMBER UNIVERSITIES/ INSTITUTIONS (PUBLIC) FOR ANNUAL SUBSCRIPTION 2026-27</a></h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2026/03/Letter_of_Annual_Subscription_0005.pdf">2. DEMAND LETTER- MEMBER UNIVERSITIES/ INSTITUTIONS (PRIVATE) FOR ANNUAL SUBSCRIPTION 2026-27</a></h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2026/03/Letter_of_Annual_Subscription_0003.pdf">3. DEMAND LETTER-ASSOCIATE MEMBER AUTONOMOUS COLLEGES (PUBLIC) ANNUAL SUBSCRIPTION 2026-27</a></h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2026/03/Letter_of_Annual_Subscription_0004.pdf">4.DEMAND LETTER-ASSOCIATE MEMBER AUTONOMOUS COLLEGES (PRIVATE) ANNUAL SUBSCRIPTION 2026-27</a></h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2026/03/Letter_of_Annual_Subscription_0001.pdf">5. DEMAND LETTER-ASSOCIATE MEMBER UNIVERSITIES FOR ANNUAL SUBSCRIPTION 2026-27</a></h2>
+<p>&nbsp;</p>
+<h1 style="text-align: center;"><span style="text-decoration: underline;">Notification For AIU Annual Subscription 2025-26</span></h1>
+<h2>
+
+</h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2025/03/Annual_Subscription_Rs._59000.pdf" data-type="link" data-id="https://aiu.ac.in/wp-content/uploads/docs/2025/03/Annual_Subscription_Rs._59000.pdf">1. DEMAND LETTER- PUBLIC FUNDED UNIVERSITIES FOR ANNUAL SUBSCRIPTION 2025-26</a></h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2025/03/Annual_Subscription_Rs._177000.pdf" data-type="link" data-id="https://aiu.ac.in/wp-content/uploads/docs/2025/03/Annual_Subscription_Rs._177000.pdf">2. DEMAND LETTER-PRIVATE FUNDED UNIVERSITIES FOR ANNUAL SUBSCRIPTION 2025-26</a></h2>
+<h2><a href="https://aiu.ac.in/wp-content/uploads/docs/2025/03/Annual_Subscription_Rs._236000.pdf" data-type="link" data-id="https://aiu.ac.in/wp-content/uploads/docs/2025/03/Annual_Subscription_Rs._236000.pdf">3. DEMAND LETTER-ASSOCIATE MEMBER UNIVERSITIES FOR ANNUAL SUBSCRIPTION 2025-26</a></h2>
+
+
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			&times;			</button>
+		
+	</div>
+
+</div>
+<div 
+	id="pum-1580" 
+	role="dialog" 
+	aria-modal="false"
+	aria-labelledby="pum_popup_title_1580"
+	class="pum pum-overlay pum-theme-628 pum-theme-default-theme popmake-overlay click_open" 
+	data-popmake="{&quot;id&quot;:1580,&quot;slug&quot;:&quot;edify-online&quot;,&quot;theme_id&quot;:628,&quot;cookies&quot;:[],&quot;triggers&quot;:[{&quot;type&quot;:&quot;click_open&quot;,&quot;settings&quot;:{&quot;extra_selectors&quot;:&quot;&quot;,&quot;cookie_name&quot;:null}}],&quot;mobile_disabled&quot;:null,&quot;tablet_disabled&quot;:null,&quot;meta&quot;:{&quot;display&quot;:{&quot;stackable&quot;:false,&quot;overlay_disabled&quot;:false,&quot;scrollable_content&quot;:false,&quot;disable_reposition&quot;:false,&quot;size&quot;:&quot;medium&quot;,&quot;responsive_min_width&quot;:&quot;0%&quot;,&quot;responsive_min_width_unit&quot;:false,&quot;responsive_max_width&quot;:&quot;100%&quot;,&quot;responsive_max_width_unit&quot;:false,&quot;custom_width&quot;:&quot;640px&quot;,&quot;custom_width_unit&quot;:false,&quot;custom_height&quot;:&quot;380px&quot;,&quot;custom_height_unit&quot;:false,&quot;custom_height_auto&quot;:false,&quot;location&quot;:&quot;center top&quot;,&quot;position_from_trigger&quot;:false,&quot;position_top&quot;:&quot;100&quot;,&quot;position_left&quot;:&quot;0&quot;,&quot;position_bottom&quot;:&quot;0&quot;,&quot;position_right&quot;:&quot;0&quot;,&quot;position_fixed&quot;:false,&quot;animation_type&quot;:&quot;fade&quot;,&quot;animation_speed&quot;:&quot;350&quot;,&quot;animation_origin&quot;:&quot;center top&quot;,&quot;overlay_zindex&quot;:false,&quot;zindex&quot;:&quot;1999999999&quot;},&quot;close&quot;:{&quot;text&quot;:&quot;&quot;,&quot;button_delay&quot;:&quot;0&quot;,&quot;overlay_click&quot;:false,&quot;esc_press&quot;:false,&quot;f4_press&quot;:false},&quot;click_open&quot;:[]}}">
+
+	<div id="popmake-1580" class="pum-container popmake theme-628 pum-responsive pum-responsive-medium responsive size-medium">
+
+				
+							<div id="pum_popup_title_1580" class="pum-title popmake-title">
+				Edify Online			</div>
+		
+		
+				<div class="pum-content popmake-content" tabindex="0">
+			<ol start="1" type="1">
+<li>Association of Indian Universities <a href="https://www.einnews.com/pr_news/635327951/association-of-indian-universities-aiu-india-signs-mou-with-edify-online-usa" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=https://www.einnews.com/pr_news/635327951/association-of-indian-universities-aiu-india-signs-mou-with-edify-online-usa&amp;source=gmail&amp;ust=1764133573902000&amp;usg=AOvVaw3Z-PpaKczhEXdQkqNcM_AI">(AIU), India, Signs MoU with Edify Online, USA</a>, May 23, 2023.<u></u><u></u></li>
+<li><a href="https://www.einpresswire.com/article/789942511/unveiled-internationalizing-higher-education-report-a-study-of-preparedness-of-indian-higher-education-institutions" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=https://www.einpresswire.com/article/789942511/unveiled-internationalizing-higher-education-report-a-study-of-preparedness-of-indian-higher-education-institutions&amp;source=gmail&amp;ust=1764133573902000&amp;usg=AOvVaw0iTL66-wCs1t1nhS3WkGlG">IHE Report was unveiled</a>, by Secretary General, Dr. Mittal, Vik Agarwal, and others, on February 2025.<u></u><u></u></li>
+<li><a href="https://drive.google.com/file/d/1x3Bam5yo6VNURHuubwkms2k_1FctWAry/view?usp=drive_link" target="_blank" rel="noopener noreferrer" data-saferedirecturl="https://www.google.com/url?q=https://drive.google.com/file/d/1x3Bam5yo6VNURHuubwkms2k_1FctWAry/view?usp%3Ddrive_link&amp;source=gmail&amp;ust=1764133573902000&amp;usg=AOvVaw3NQAVChShWk6zk0n-dsrb5">Vik’s video at Amity</a> at the 99<sup>th</sup> annual AIU general meet and conference of VCs, on June 23, 2025 &#8211; plan to launch university clusters initiative with ‘Shared HEIs Ecosystem’ framework.  <u></u><u></u></li>
+</ol>
+		</div>
+
+				
+							<button type="button" class="pum-close popmake-close" aria-label="Close">
+			CLOSE			</button>
+		
+	</div>
+
+</div>
+<script type="text/javascript" src="https://aiu.ac.in/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="popup-maker-site-js-extra">
+/* <![CDATA[ */
+var pum_vars = {"version":"1.20.4","pm_dir_url":"https://aiu.ac.in/wp-content/plugins/popup-maker/","ajaxurl":"https://aiu.ac.in/wp-admin/admin-ajax.php","restapi":"https://aiu.ac.in/wp-json/pum/v1","rest_nonce":null,"default_theme":"628","debug_mode":"","disable_tracking":"","home_url":"/","message_position":"top","core_sub_forms_enabled":"1","popups":[],"cookie_domain":"","analytics_route":"analytics","analytics_api":"https://aiu.ac.in/wp-json/pum/v1"};
+var pum_sub_vars = {"ajaxurl":"https://aiu.ac.in/wp-admin/admin-ajax.php","message_position":"top"};
+var pum_popups = {"pum-637":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"629","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":true,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"lightbox","id":637,"slug":"annual-subscription-2025-26"},"pum-1580":{"triggers":[],"cookies":[],"disable_on_mobile":false,"disable_on_tablet":false,"atc_promotion":null,"explain":null,"type_section":null,"theme_id":"628","size":"medium","responsive_min_width":"0%","responsive_max_width":"100%","custom_width":"640px","custom_height_auto":false,"custom_height":"380px","scrollable_content":false,"animation_type":"fade","animation_speed":"350","animation_origin":"center top","open_sound":"none","custom_sound":"","location":"center top","position_top":"100","position_bottom":"0","position_left":"0","position_right":"0","position_from_trigger":false,"position_fixed":false,"overlay_disabled":false,"stackable":false,"disable_reposition":false,"zindex":"1999999999","close_button_delay":"0","fi_promotion":null,"close_on_form_submission":false,"close_on_form_submission_delay":"0","close_on_overlay_click":false,"close_on_esc_press":false,"close_on_f4_press":false,"disable_form_reopen":false,"disable_accessibility":false,"theme_slug":"default-theme","id":1580,"slug":"edify-online"}};
+//# sourceURL=popup-maker-site-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aiu.ac.in/wp-content/plugins/popup-maker/assets/js/site.min.js?defer&amp;ver=1.20.4" id="popup-maker-site-js"></script>
+<script type="text/javascript" src="https://aiu.ac.in/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" id="megamenu-js-extra">
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+//# sourceURL=megamenu-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://aiu.ac.in/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.2.3" id="megamenu-js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://aiu.ac.in/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://aiu.ac.in/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://csjmu.ac.in/wp-content/themes/csjmutheme/thirdparty/marquee/jquery.marquee.js' id='marquee2'></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/js/all.min.js" integrity="sha512-MNA4ve9aW825/nbJKWOW0eo0S5f2HWQYQEIw4TkgLYMgqk88gHpSHJuMkJhYMQWKE7LmJMBdJZMs5Ua19QbF8Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/brands.min.js" integrity="sha512-N5K6sQXjzT79tR16zvBu7B0AqvYtHKvk3+eKuQWoVNQDGU5kR9W8OP3CTYtm3vVM2EtObrmtm0Jup17F718OyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
+

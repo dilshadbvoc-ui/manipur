@@ -1,0 +1,333 @@
+.hostel-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero */
+.hostel-hero {
+  background: linear-gradient(135deg, var(--lpu-black) 0%, #1a2a4a 100%);
+  padding: clamp(120px, 15vw, 180px) 20px clamp(60px, 8vw, 100px);
+  text-align: center;
+}
+
+.hostel-breadcrumb {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.hostel-breadcrumb a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.hostel-breadcrumb a:hover {
+  color: var(--lpu-orange);
+}
+
+.hostel-breadcrumb span {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.hostel-badge {
+  display: inline-block;
+  background: rgba(232, 185, 25, 0.15);
+  color: var(--lpu-orange);
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  border: 1px solid rgba(232, 185, 25, 0.3);
+}
+
+.hostel-hero h1 {
+  color: white !important;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hostel-hero-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Body */
+.hostel-body {
+  padding: clamp(60px, 10vw, 100px) 20px;
+}
+
+/* Facilities Grid */
+.hostel-facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  margin-bottom: 80px;
+  max-width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .hostel-facilities-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+}
+
+@media (max-width: 900px) {
+  .hostel-facilities-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .hostel-facilities-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+.hostel-facility-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid var(--lpu-orange);
+}
+
+.hostel-facility-card.hostel-green {
+  border-top-color: #10b981;
+}
+
+.hostel-facility-card.hostel-blue {
+  border-top-color: #3b82f6;
+}
+
+.hostel-facility-card.hostel-red {
+  border-top-color: #ef4444;
+}
+
+.hostel-facility-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.hostel-facility-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 24px;
+  background: linear-gradient(135deg, #fff5e6 0%, #ffe8cc 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 25px rgba(232, 185, 25, 0.2);
+  transition: all 0.3s ease;
+}
+
+.hostel-facility-card:hover .hostel-facility-icon-wrapper {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.hostel-facility-icon {
+  font-size: 3.5rem;
+  line-height: 1;
+}
+
+.hostel-facility-title {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--lpu-black);
+  margin-bottom: 12px;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.hostel-facility-desc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.7;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.hostel-facility-accent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--lpu-orange) 0%, transparent 100%);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.hostel-facility-card:hover .hostel-facility-accent {
+  transform: scaleX(1);
+}
+
+/* Admission Section */
+.hostel-admission-section {
+  margin-bottom: 60px;
+}
+
+.hostel-admission-card {
+  background: white;
+  border-radius: 20px;
+  padding: 50px 40px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  border-left: 6px solid var(--lpu-orange);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hostel-admission-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.hostel-admission-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.hostel-admission-header h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 900;
+  color: var(--lpu-black) !important;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.hostel-admission-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hostel-admission-content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 16px;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.hostel-admission-content strong {
+  color: var(--lpu-orange);
+  font-weight: 700;
+}
+
+.hostel-admission-actions {
+  text-align: center;
+}
+
+.hostel-admission-actions .btn {
+  padding: 16px 40px;
+  font-size: 1rem;
+  border-radius: 50px;
+}
+
+/* Features Banner */
+.hostel-features-banner {
+  background: linear-gradient(135deg, var(--lpu-black) 0%, #1a2a4a 100%);
+  border-radius: 20px;
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+}
+
+.hostel-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+}
+
+.hostel-feature-icon {
+  width: 50px;
+  height: 50px;
+  background: var(--lpu-orange);
+  color: var(--lpu-black);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(232, 185, 25, 0.4);
+}
+
+.hostel-feature-item h4 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 4px;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.hostel-feature-item p {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hostel-facilities-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .hostel-admission-card {
+    padding: 35px 25px;
+  }
+
+  .hostel-admission-header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hostel-features-banner {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 35px 25px;
+  }
+
+  .hostel-feature-item {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hostel-body {
+    padding-bottom: 120px;
+  }
+}

@@ -1,0 +1,217 @@
+.leadership-section {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.leadership-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.leadership-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.leadership-title h2 {
+  font-size: 3rem;
+  color: var(--lpu-black);
+  position: relative;
+  display: inline-block;
+  padding-bottom: 15px;
+}
+
+.leadership-title h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: var(--lpu-orange);
+}
+
+.leadership-card {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 120px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.leadership-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.leadership-image-box {
+  flex: 0 0 450px;
+  position: relative;
+}
+
+.leadership-image {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.leadership-image-box::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--lpu-orange);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+.leadership-content {
+  flex: 1;
+}
+
+.leadership-badge {
+  display: inline-block;
+  background: var(--lpu-orange);
+  color: white;
+  padding: 6px 15px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.leadership-name {
+  font-size: 2.2rem;
+  color: var(--lpu-black);
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+.leadership-role {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-transform: none;
+  word-spacing: normal;
+  letter-spacing: normal;
+  line-height: 1.5;
+}
+
+.leadership-text {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 30px;
+  text-align: left;
+  word-spacing: normal;
+  letter-spacing: normal;
+}
+
+.leadership-text p {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 12px;
+  text-transform: none;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+
+.leadership-signature {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.sig-name {
+  font-weight: 700;
+  color: var(--lpu-black);
+  display: block;
+}
+
+.sig-role {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .leadership-card, .leadership-card.reverse {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .leadership-image-box {
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .leadership-image {
+    height: 400px;
+  }
+
+  .leadership-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .leadership-section {
+    padding: 60px 0;
+  }
+
+  .leadership-title {
+    margin-bottom: 40px;
+  }
+
+  .leadership-title h2 {
+    font-size: 2rem;
+  }
+
+  .leadership-card {
+    margin-bottom: 60px;
+    gap: 25px;
+  }
+
+  .leadership-image {
+    height: 280px;
+  }
+
+  .leadership-name {
+    font-size: 1.5rem;
+  }
+
+  .leadership-role {
+    font-size: 0.9rem;
+  }
+
+  .leadership-text {
+    font-size: 0.95rem;
+  }
+
+  .leadership-image-box::before {
+    display: none;
+  }
+}

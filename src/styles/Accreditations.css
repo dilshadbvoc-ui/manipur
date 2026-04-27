@@ -1,0 +1,270 @@
+.accreditations-section {
+  background: #fff;
+  padding: 70px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Two-column header */
+.acc-header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.acc-header-left {
+  flex: 1;
+  min-width: 240px;
+}
+
+.acc-main-title {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  color: var(--lpu-black);
+  margin-top: 8px;
+  line-height: 1.2;
+}
+
+.acc-header-right {
+  flex: 1.2;
+  min-width: 260px;
+}
+
+.acc-main-desc {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 8px;
+}
+
+/* Cards row — fixed 5 columns for all accreditation cards */
+.acc-cards-row {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 28px;
+}
+
+@media (max-width: 1200px) {
+  .acc-cards-row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .acc-cards-row {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .acc-cards-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.acc-card {
+  background: white;
+  border-radius: 16px;
+  padding: 40px 30px 30px;
+  box-shadow: 0 6px 30px rgba(0,0,0,0.08);
+  border: 1px solid #f0f0f0;
+  border-top: 4px solid var(--acc-color, var(--lpu-orange));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  min-height: 380px;
+}
+
+.acc-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.12);
+}
+
+.acc-card-logo-box {
+  width: 120px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.acc-logo-badge {
+  width: 110px;
+  height: 80px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.acc-logo-badge span {
+  color: white;
+  font-family: var(--font-heading);
+  font-size: 1.6rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.acc-card-logo {
+  max-width: 120px;
+  max-height: 90px;
+  object-fit: contain;
+}
+
+.acc-card-divider {
+  width: 50px;
+  height: 3px;
+  background: var(--acc-color, var(--lpu-orange));
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.acc-card-body {
+  flex: 1;
+}
+
+.acc-card-short {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--acc-color, var(--lpu-black));
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.acc-card-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--lpu-black);
+  margin-bottom: 12px;
+  font-family: var(--font-heading);
+  text-transform: none !important;
+  line-height: 1.5;
+  min-height: 45px;
+  text-align: center;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  hyphens: none;
+}
+
+.acc-card-desc {
+  font-size: 0.85rem;
+  color: #666;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none !important;
+  line-height: 1.7;
+  min-height: 50px;
+  text-align: center;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+  hyphens: none;
+}
+
+.acc-card-badge {
+  margin-top: 18px;
+  background: rgba(0,0,0,0.04);
+  color: #2e7d32;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-family: var(--font-body);
+  text-transform: none;
+}
+
+@media (max-width: 900px) {
+  .acc-cards-row {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .acc-header-block {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+  }
+
+  .acc-main-title {
+    font-size: 1.5rem;
+  }
+  
+  .acc-main-desc {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .accreditations-section {
+    padding: 50px 0 60px;
+  }
+
+  .acc-cards-row {
+    grid-template-columns: 1fr;
+    max-width: 380px;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .acc-card {
+    min-height: 340px;
+    padding: 35px 25px 25px;
+  }
+  
+  .acc-card-logo-box {
+    width: 100px;
+    height: 75px;
+    margin-bottom: 20px;
+  }
+  
+  .acc-logo-badge {
+    width: 95px;
+    height: 70px;
+  }
+  
+  .acc-logo-badge span {
+    font-size: 1.4rem;
+  }
+  
+  .acc-card-logo {
+    max-width: 100px;
+    max-height: 75px;
+  }
+  
+  .acc-card-short {
+    font-size: 1.3rem;
+  }
+  
+  .acc-card-name {
+    font-size: 0.9rem;
+    min-height: 40px;
+  }
+  
+  .acc-card-desc {
+    font-size: 0.82rem;
+    min-height: 45px;
+  }
+}
+
+@media (max-width: 480px) {
+  .acc-cards-row {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  .acc-card {
+    min-height: 320px;
+  }
+}

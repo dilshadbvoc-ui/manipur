@@ -1,0 +1,218 @@
+.iqac-top-grid {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 24px;
+  margin-bottom: 0;
+}
+
+/* Vision card */
+.iqac-vision-card {
+  background: linear-gradient(135deg, var(--lpu-black) 0%, #1a2a4a 100%);
+  border-radius: 14px;
+  padding: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.iqac-vision-icon { font-size: 2.5rem; }
+.iqac-vision-card h3 {
+  font-size: 1rem; font-weight: 900;
+  text-transform: uppercase; letter-spacing: 1px;
+  color: var(--lpu-orange) !important;
+}
+.iqac-vision-card p {
+  font-size: 0.92rem; line-height: 1.8;
+  color: rgba(255,255,255,0.8);
+  font-family: var(--font-body); font-weight: 400; text-transform: none;
+}
+
+/* Members grid */
+.iqac-members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  background: white;
+  max-width: 100%;
+  padding: 24px;
+  border-radius: 0 0 10px 10px;
+}
+
+.iqac-member-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  border-top: 3px solid var(--lpu-orange);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.iqac-member-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.iqac-member-role {
+  font-size: 0.72rem; font-weight: 800;
+  text-transform: uppercase; letter-spacing: 0.8px;
+  color: var(--lpu-orange); margin-bottom: 6px;
+}
+.iqac-member-name {
+  font-size: 1rem; font-weight: 800;
+  color: var(--lpu-black); margin-bottom: 6px;
+}
+.iqac-member-detail {
+  font-size: 0.82rem; color: #666; line-height: 1.5;
+  font-family: var(--font-body); font-weight: 400; text-transform: none;
+  margin-bottom: 10px;
+}
+.iqac-member-contact, .iqac-member-email {
+  display: block; font-size: 0.82rem; font-weight: 600;
+  color: var(--lpu-black); text-decoration: none;
+  margin-top: 4px;
+}
+.iqac-member-contact:hover, .iqac-member-email:hover { color: var(--lpu-orange); }
+
+/* Contact bar */
+.iqac-contact-bar {
+  background: white;
+  border-radius: 14px;
+  padding: 28px 30px;
+  margin-top: 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  border-left: 4px solid var(--lpu-orange);
+}
+.iqac-contact-bar h3 {
+  font-size: 1rem; font-weight: 900;
+  text-transform: uppercase; letter-spacing: 0.5px;
+  margin-bottom: 20px; color: var(--lpu-black);
+}
+.iqac-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 100%;
+}
+.iqac-contact-item {
+  display: flex; flex-direction: column; gap: 4px;
+}
+.iqac-contact-item strong {
+  font-size: 0.95rem; color: var(--lpu-black);
+}
+.iqac-contact-item span {
+  font-size: 0.8rem; color: #888;
+  font-family: var(--font-body); font-weight: 400; text-transform: none;
+}
+.iqac-contact-item a {
+  font-size: 0.9rem; font-weight: 700;
+  color: var(--lpu-orange); text-decoration: none;
+}
+.iqac-contact-item a:hover { text-decoration: underline; }
+
+@media (max-width: 768px) {
+  .iqac-top-grid { grid-template-columns: 1fr; }
+  .iqac-members-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .iqac-members-grid { grid-template-columns: 1fr; }
+}
+
+/* Two column layout */
+.iqac-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+/* List cards */
+.iqac-list-card {
+  background: white;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border-top: 3px solid var(--lpu-orange);
+}
+
+.iqac-list-card h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--lpu-black);
+  margin-bottom: 16px;
+}
+
+.iqac-list-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.iqac-list-card ul li {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: #444;
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.iqac-list-card ul li::before {
+  content: '›';
+  position: absolute;
+  left: 0;
+  color: var(--lpu-orange);
+  font-weight: 900;
+}
+
+/* Contact card */
+.iqac-contact-card {
+  background: #f8f9fa;
+  border-radius: 14px;
+  padding: 28px;
+  border-left: 4px solid var(--lpu-orange);
+}
+
+.iqac-contact-card h3 {
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: var(--lpu-black);
+}
+
+.iqac-contact-card p {
+  font-family: var(--font-body);
+  font-size: 0.92rem;
+  color: #555;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 1.7;
+  margin-bottom: 8px;
+}
+
+.iqac-contact-card a {
+  color: var(--lpu-orange);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .iqac-two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Public Self Disclosure grid */
+.psd-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+  .psd-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,89 @@
+'use client';
+
+import React, { useState, useEffect } from 'react';
+import API from '@/lib/api';
+import '@/styles/Spotlight.css';
+
+const defaultRow1 = [
+  { id: 1, src: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=800", title: "Global Summit 2026", desc: "A prestigious gathering of world leaders and visionaries shaping the future of education." },
+  { id: 2, src: "https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&q=80&w=800", title: "Youth Talk", desc: "We welcomed Wing Commander Vyomika Singh to deliver a powerful message of fearless ambition." },
+  { id: 3, src: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80&w=800", title: "Convocation Ceremony", desc: "Celebrating our brilliant graduates as they embark on their journey to change the world." },
+  { id: 4, src: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800", title: "Annual Cultural Fest", desc: "A vibrant explosion of colors, music, and art, showcasing the incredible talent of our students." },
+  { id: 5, src: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?auto=format&fit=crop&q=80&w=800", title: "Dance Competition", desc: "Energetic performances displaying the passion and artistic expression of our dynamic student body." }
+];
+
+const defaultRow2 = [
+  { id: 6, src: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&q=80&w=800", title: "Coke Studio Concert", desc: "An electrifying live performance by top artists, leaving the crowd mesmerized and energized." },
+  { id: 7, src: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=800", title: "Live Concerts", desc: "Unforgettable musical nights hosted regularly to ensure students have the perfect work-life balance." },
+  { id: 8, src: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=800", title: "Extra-Curricular", desc: "We cherished an unforgettable interactive session with Padma Bhushan Awardees and industry legends." },
+  { id: 9, src: "https://images.unsplash.com/photo-1558403194-611308249627?auto=format&fit=crop&q=80&w=800", title: "Guest Sessions", desc: "Inspiring talks from industry titans sharing their experiences and profound knowledge." },
+  { id: 10, src: "https://images.unsplash.com/photo-1561489422-45de3d015e3e?auto=format&fit=crop&q=80&w=800", title: "Awards & Recognition", desc: "Honoring the relentless dedication and outstanding achievements of our prodigies." }
+];
+
+const Spotlight = () => {
+  const [row1Images, setRow1Images] = useState(defaultRow1);
+  const [row2Images, setRow2Images] = useState(defaultRow2);
+
+  useEffect(() => {
+    API.get('/settings/spotlight')
+      .then(({ data }) => {
+        if (data?.content?.row1?.length) setRow1Images(data.content.row1);
+        if (data?.content?.row2?.length) setRow2Images(data.content.row2);
+      })
+      .catch(() => {});
+  }, []);
+  return (
+    <section className="spotlight-section">
+      <div className="container">
+        <div className="spotlight-header-container">
+          <div className="spotlight-header-content">
+            <div className="spotlight-badge-pulse">
+              <span className="pulse-dot"></span>
+              <span className="spotlight-badge">HAPPENING NOW</span>
+            </div>
+            <h2 className="spotlight-title">
+              MIU <span className="highlight-text">Spotlight</span>
+            </h2>
+            <p className="spotlight-subtitle">
+              Relive the most magnificent moments, electrifying concerts, and mega events that define the vibrant campus life at Manipur International University.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="spotlight-marquee-container">
+        {/* First Row: Moves left */}
+        <div className="marquee-row">
+          <div className="marquee-content marquee-left">
+            {[...row1Images, ...row1Images, ...row1Images].map((img, index) => (
+              <div key={`row1-${index}`} className="marquee-item">
+                <img src={img.src} alt={img.title} className="marquee-img" />
+                <div className="marquee-info">
+                  <h4>{img.title}</h4>
+                  <p>{img.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Second Row: Moves right */}
+        <div className="marquee-row">
+          <div className="marquee-content marquee-right">
+            {[...row2Images, ...row2Images, ...row2Images].map((img, index) => (
+              <div key={`row2-${index}`} className="marquee-item">
+                <img src={img.src} alt={img.title} className="marquee-img" />
+                <div className="marquee-info">
+                  <h4>{img.title}</h4>
+                  <p>{img.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Spotlight;

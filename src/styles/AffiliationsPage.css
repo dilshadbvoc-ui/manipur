@@ -1,0 +1,367 @@
+.affiliations-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+/* Hero */
+.aff-hero {
+  position: relative;
+  background: linear-gradient(135deg, var(--lpu-black) 0%, #1a2a4a 100%);
+  padding: clamp(120px, 15vw, 180px) 20px clamp(60px, 8vw, 100px);
+  text-align: center;
+  overflow: hidden;
+}
+
+.aff-hero-bg {
+  position: absolute;
+  inset: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(232, 185, 25, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.1) 0%, transparent 50%);
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.aff-breadcrumb {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 20px;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+  position: relative;
+  z-index: 1;
+}
+
+.aff-breadcrumb a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+}
+
+.aff-breadcrumb a:hover {
+  color: var(--lpu-orange);
+}
+
+.aff-breadcrumb span {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.aff-badge {
+  display: inline-block;
+  background: rgba(232, 185, 25, 0.15);
+  color: var(--lpu-orange);
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  border: 1px solid rgba(232, 185, 25, 0.3);
+  position: relative;
+  z-index: 1;
+}
+
+.aff-hero h1 {
+  color: white !important;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 900;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.aff-hero-subtitle {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+  position: relative;
+  z-index: 1;
+}
+
+/* Body */
+.aff-body {
+  padding: clamp(60px, 10vw, 100px) 20px;
+}
+
+/* Introduction */
+.aff-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 60px;
+}
+
+.aff-intro h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 900;
+  color: var(--lpu-black);
+  margin-bottom: 20px;
+}
+
+.aff-intro p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* Loading */
+.aff-loading {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Cards Grid */
+.aff-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.aff-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+  border-top: 5px solid var(--card-color, var(--lpu-orange));
+  transition: all 0.3s ease;
+}
+
+.aff-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 50px rgba(0,0,0,0.12);
+}
+
+.aff-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.aff-card-logo-box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aff-card-logo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.aff-logo-badge {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 900;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.aff-card-badge {
+  background: #d4edda;
+  color: #155724;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid #c3e6cb;
+}
+
+.aff-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.aff-card-short {
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+}
+
+.aff-card-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--lpu-black);
+  line-height: 1.4;
+}
+
+.aff-card-desc {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.aff-card-details {
+  font-size: 0.9rem;
+  color: #777;
+  line-height: 1.6;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 8px;
+}
+
+/* Importance Section */
+.aff-importance {
+  margin-bottom: 80px;
+}
+
+.aff-importance h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 900;
+  color: var(--lpu-black);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.aff-importance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.aff-importance-card {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.04);
+}
+
+.aff-importance-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(232, 185, 25, 0.15);
+}
+
+.aff-importance-icon {
+  font-size: 3rem;
+  margin-bottom: 16px;
+}
+
+.aff-importance-card h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--lpu-black);
+  margin-bottom: 12px;
+}
+
+.aff-importance-card p {
+  font-size: 0.95rem;
+  color: #666;
+  line-height: 1.7;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+/* CTA */
+.aff-cta {
+  background: linear-gradient(135deg, var(--lpu-black) 0%, #1a2a4a 100%);
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+}
+
+.aff-cta h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 900;
+  margin-bottom: 16px;
+  color: white !important;
+}
+
+.aff-cta p {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.9);
+  margin-bottom: 32px;
+  font-family: var(--font-body);
+  font-weight: 400;
+  text-transform: none;
+}
+
+.aff-cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: var(--lpu-black);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .aff-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .aff-importance-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .aff-card {
+    padding: 30px;
+  }
+
+  .aff-cta {
+    padding: 40px 24px;
+  }
+
+  .aff-cta-buttons {
+    flex-direction: column;
+  }
+
+  .aff-cta-buttons .btn,
+  .aff-cta-buttons .btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+}
