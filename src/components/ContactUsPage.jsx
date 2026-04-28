@@ -92,10 +92,8 @@ export default function ContactUsPage() {
   ];
 
   const departments = [
-    { icon: '🎓', name: 'Admissions', email: 'admissions@miu.edu.in', phone: '+91 9319727766' },
-    { icon: '💼', name: 'Placements', email: 'placements@miu.edu.in', phone: '+91 9319727767' },
-    { icon: '📚', name: 'Academics', email: 'academics@miu.edu.in', phone: '+91 9319727768' },
-    { icon: '🏢', name: 'Administration', email: 'admin@miu.edu.in', phone: '+91 9319727769' }
+    { icon: '🎓', name: 'Admissions', email: 'admissions@miu.edu.in' },
+    { icon: '📋', name: 'Verification', email: 'verification@miu.edu.in' },
   ];
 
   return (
@@ -328,10 +326,6 @@ export default function ContactUsPage() {
                   <a href={`mailto:${dept.email}`} className="dept-contact-item">
                     <span className="dept-contact-icon">✉️</span>
                     {dept.email}
-                  </a>
-                  <a href={`tel:${dept.phone.replace(/\s/g,'')}`} className="dept-contact-item">
-                    <span className="dept-contact-icon">📞</span>
-                    {dept.phone}
                   </a>
                 </div>
               </div>

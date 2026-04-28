@@ -439,3 +439,35 @@
     font-size: 2.2rem;
   }
 }
+
+/* ── About Intro Block ── */
+.about-intro-block {
+  padding: 60px 15px 80px;
+  background: #fff;
+}
+
+.about-intro-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  color: var(--lpu-black);
+  margin-bottom: 28px;
+  font-family: var(--font-heading);
+  border-left: 4px solid var(--lpu-orange);
+  padding-left: 16px;
+}
+
+.about-intro-para {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #444;
+  margin-bottom: 18px;
+  font-family: var(--font-body);
+  max-width: 860px;
+}
+
+.about-intro-cta {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--lpu-orange);
+  margin-top: 28px;
+  font-family: var(--font-heading);
+}
