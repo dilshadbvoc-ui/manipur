@@ -57,9 +57,9 @@ export default function ContactUsPage() {
         </svg>
       ),
       title: 'Email',
-      primary: pc.email1 || 'enquiry@miu.edu.in',
-      secondary: 'We reply within 24 hours',
-      link: `mailto:${pc.email1 || 'enquiry@miu.edu.in'}`,
+      primary: pc.email1 || 'admission@miu.edu.in',
+      secondary: '',
+      link: `mailto:${pc.email1 || 'admission@miu.edu.in'}`,
       color: '#FFB800',
       bgColor: '#FFF8E1'
     },
@@ -93,6 +93,7 @@ export default function ContactUsPage() {
 
   const departments = [
     { icon: '🎓', name: 'Admissions', email: 'admissions@miu.edu.in' },
+    { icon: '📝', name: 'Grievance', email: 'grievance@miu.edu.in' },
     { icon: '📋', name: 'Verification', email: 'verification@miu.edu.in' },
   ];
 
@@ -152,7 +153,7 @@ export default function ContactUsPage() {
               <div className="form-header-new">
                 <div className="form-icon-badge">✍️</div>
                 <h2>Send Us a Message</h2>
-                <p>Fill out the form and our team will get back to you within 24 hours</p>
+                <p>Fill out the form and our team will get back to you shortly</p>
               </div>
 
               {done ? (

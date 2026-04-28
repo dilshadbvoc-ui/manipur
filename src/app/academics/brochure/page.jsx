@@ -16,7 +16,7 @@ export default function Page() {
         { icon: '🏢', title: 'School of Management Brochure', desc: 'BBA and MBA specialization details and career outcomes.' },
         { icon: '🔬', title: 'School of Science Brochure', desc: 'B.Sc and M.Sc program details across science disciplines.' },
       ]},
-      { title: 'Request a Brochure', content: 'To receive a physical copy or for any queries, contact our admissions office at enquiry@miu.edu.in or call +91 9319727766.' },
+      { title: 'Request a Brochure', content: 'To receive a physical copy or for any queries, contact our admissions office at admission@miu.edu.in or call +91 9319727766.' },
     ]}
   />;
 }

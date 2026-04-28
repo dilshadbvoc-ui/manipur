@@ -107,7 +107,7 @@ export default function StudentLogin() {
         </form>
 
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-          <a href="mailto:enquiry@miu.edu.in" style={{ color: 'var(--lpu-orange)', fontWeight: '700', textDecoration: 'none', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>
+          <a href="mailto:admission@miu.edu.in" style={{ color: 'var(--lpu-orange)', fontWeight: '700', textDecoration: 'none', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>
             Forgot Password?
           </a>
         </div>

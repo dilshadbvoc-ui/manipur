@@ -107,7 +107,7 @@ export default function AdmissionRulesPage() {
               <p>
                 The university reserves the right to modify admission rules and regulations as per regulatory requirements. 
                 For the most up-to-date information, please contact the Admissions Office at{' '}
-                <a href="mailto:enquiry@miu.edu.in">enquiry@miu.edu.in</a>
+                <a href="mailto:admission@miu.edu.in">admission@miu.edu.in</a>
               </p>
             </div>
           </div>

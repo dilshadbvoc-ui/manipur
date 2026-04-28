@@ -34,7 +34,7 @@ export default function StructuredData() {
       },
       {
         "@type": "ContactPoint",
-        "email": "enquiry@miu.edu.in",
+        "email": "admission@miu.edu.in",
         "contactType": "customer service"
       }
     ],

@@ -226,7 +226,7 @@ export default function ReservationRosterPage() {
                 <div className="contact-details">
                   <div className="contact-item">
                     <span className="contact-icon">📧</span>
-                    <a href="mailto:enquiry@miu.edu.in">enquiry@miu.edu.in</a>
+                    <a href="mailto:admission@miu.edu.in">admission@miu.edu.in</a>
                   </div>
                   <div className="contact-item">
                     <span className="contact-icon">📞</span>

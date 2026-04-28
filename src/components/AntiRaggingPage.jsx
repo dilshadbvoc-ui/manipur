@@ -8,7 +8,7 @@ export default function AntiRaggingPage() {
   const helplines = [
     { icon: '📞', title: 'UGC Anti-Ragging Helpline', desc: '1800-180-5522 (Toll Free, 24×7)', color: 'red' },
     { icon: '📞', title: 'MIU Anti-Ragging Helpline', desc: '+91 9319727766', color: 'orange' },
-    { icon: '✉️', title: 'Email', desc: 'enquiry@miu.edu.in', color: 'blue' },
+    { icon: '✉️', title: 'Email', desc: 'admission@miu.edu.in', color: 'blue' },
     { icon: '🌐', title: 'Online Portal', desc: 'www.antiragging.in', color: 'green' },
   ];
 

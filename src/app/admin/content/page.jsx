@@ -221,7 +221,7 @@ export default function ContentManager() {
   const [ecoCards, setEcoCards] = useState(DEFAULT_ECO);
 
   // Footer
-  const [footerData, setFooterData] = useState({ aboutText: 'Transforming education with a globally recognized curriculum.', address: 'Manipur International University, Imphal, Manipur, India - 795001', phone: '+91 9319727766', email: 'enquiry@miu.edu.in', facebook: 'https://www.facebook.com/ManipurInternationalUniversityOfficial/', twitter: 'https://x.com/MIU_India', linkedin: 'http://in.linkedin.com/company/manipur-international-university-miu', instagram: 'https://www.instagram.com/miu.india', copyright: 'Manipur International University. All Rights Reserved.' });
+  const [footerData, setFooterData] = useState({ aboutText: 'Transforming education with a globally recognized curriculum.', address: 'Manipur International University, Imphal, Manipur, India - 795001', phone: '+91 9319727766', email: 'admission@miu.edu.in', facebook: 'https://www.facebook.com/ManipurInternationalUniversityOfficial/', twitter: 'https://x.com/MIU_India', linkedin: 'http://in.linkedin.com/company/manipur-international-university-miu', instagram: 'https://www.instagram.com/miu.india', copyright: 'Manipur International University. All Rights Reserved.' });
 
   // Schools section
   const DEFAULT_SCHOOLS = [
