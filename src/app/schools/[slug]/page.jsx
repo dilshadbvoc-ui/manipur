@@ -335,10 +335,9 @@ export default function SchoolPage() {
               <div key={i} className="sp-highlight-card" style={{ borderTopColor: schoolData.color }}>
                 <div className="sp-highlight-image">
                   {h.image ? (
-                    <img src={h.image} alt={h.title} />
-                  ) : (
-                    <div className="sp-highlight-icon-fallback">{h.icon}</div>
-                  )}
+                    <img src={h.image} alt={h.title} onError={e => { e.target.style.display='none'; e.target.nextSibling.style.display='flex'; }} />
+                  ) : null}
+                  <div className="sp-highlight-icon-fallback" style={{ display: h.image ? 'none' : 'flex' }}>{h.icon}</div>
                 </div>
                 <div className="sp-highlight-content">
                   <h3>{h.title}</h3>
