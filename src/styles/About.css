@@ -471,3 +471,61 @@
   margin-top: 28px;
   font-family: var(--font-heading);
 }
+
+/* ── Recognitions Block ── */
+.about-recognitions-block {
+  padding: 0 15px 80px;
+  background: #f8f9fa;
+}
+
+.about-rec-section {
+  background: white;
+  border-radius: 14px;
+  padding: 32px 35px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  margin-bottom: 20px;
+  border-left: 4px solid var(--lpu-orange);
+}
+
+.about-rec-title {
+  font-size: clamp(1.1rem, 2.5vw, 1.4rem);
+  color: var(--lpu-black);
+  margin-bottom: 10px;
+  font-family: var(--font-heading);
+}
+
+.about-rec-intro {
+  font-size: 0.97rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 14px;
+  font-family: var(--font-body);
+}
+
+.about-rec-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.about-rec-list li {
+  font-size: 0.95rem;
+  color: #444;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  padding-left: 20px;
+  position: relative;
+}
+
+.about-rec-list li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--lpu-orange);
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.4;
+}

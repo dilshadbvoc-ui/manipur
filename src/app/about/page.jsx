@@ -14,6 +14,56 @@ const paragraphs = [
   'At the heart of MIU lies the belief in the value of knowledge, culture, and individuality.',
 ];
 
+const recognitions = [
+  {
+    title: 'Our Prestigious Recognitions',
+    intro: 'Manipur International University (MIU) has gained notable recognitions for its dedication towards excellence in academics, innovation, and quality higher education.',
+    points: [
+      'A university established under the provisions of the Manipur International University Act, 2018 enacted by the government of Manipur',
+      'An institution recognized by the University Grants Commission (UGC) under Section 2(f) and 22 of UGC Act, 1956, empowered to confer degrees',
+      'An "International Institution of Excellence"',
+      '"An Institution of State Importance"',
+      '"State Research Institute"',
+    ],
+  },
+  {
+    title: 'Academic and Institutional Strengths',
+    points: [
+      'Committed to following NEP 2020 Framework',
+      'Fosters interdisciplinary and outcome based education (OBE)',
+      'Research and Innovation focused institution',
+      'Focuses on enhancing skills with industry integrated curriculum and improving employability',
+      'Dedicated to providing quality assurance by IQAC in accordance with NAAC guidelines',
+    ],
+  },
+  {
+    title: 'International and Regional Connectivities',
+    points: [
+      'Located strategically as a gateway to Southeast Asia',
+      'Foster academic collaborations at both regional and international levels',
+      'Provides opportunities for learning across cultures and international academic exposure',
+      'Participating in research and exchanges across universities around the globe',
+    ],
+  },
+  {
+    title: 'Student Excellence',
+    points: [
+      'Transparent academic and examination system for students\' benefit',
+      'Highly devoted towards practical learning and real world applicability',
+      'Financial aid and scholarship provided to deserving students',
+      'Conducive learning environment for all round development',
+    ],
+  },
+  {
+    title: 'Quality and Compliance Oriented',
+    points: [
+      'Follows guidelines of statutory and regulatory authorities',
+      'Maintains transparency in all disclosures',
+      'Periodic academic and administrative audits',
+    ],
+  },
+];
+
 export default function AboutPage() {
   return (
     <div className="simple-page">
@@ -39,6 +89,23 @@ export default function AboutPage() {
             <p key={i} className="about-intro-para">{p}</p>
           ))}
           <p className="about-intro-cta">Start your educational journey with Manipur International University!</p>
+        </div>
+      </div>
+
+      {/* Recognitions block */}
+      <div className="about-recognitions-block">
+        <div className="container">
+          {recognitions.map((sec, i) => (
+            <div key={i} className="about-rec-section">
+              <h2 className="about-rec-title">{sec.title}</h2>
+              {sec.intro && <p className="about-rec-intro">{sec.intro}</p>}
+              <ul className="about-rec-list">
+                {sec.points.map((pt, j) => (
+                  <li key={j}>{pt}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </div>
