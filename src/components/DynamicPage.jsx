@@ -14,6 +14,7 @@ export default function DynamicPage({ settingsKey, badge, title, subtitle, bread
   const [pageTitle, setPageTitle] = useState(title);
   const [pageSubtitle, setPageSubtitle] = useState(subtitle);
   const [pageBadge, setPageBadge] = useState(badge);
+  const [heroImage, setHeroImage] = useState('');
 
   useEffect(() => {
     if (!settingsKey) return;
@@ -23,8 +24,10 @@ export default function DynamicPage({ settingsKey, badge, title, subtitle, bread
         if (!data?.content) return;
         const c = data.content;
         if (c.title) setPageTitle(c.title);
-        if (c.subtitle) setPageSubtitle(c.subtitle);
+        if (c.subtitle || c.heroSubtitle) setPageSubtitle(c.subtitle || c.heroSubtitle);
         if (c.badge) setPageBadge(c.badge);
+        if (c.heroImage) setHeroImage(c.heroImage);
+        if (c.heroTitle) setPageTitle(c.heroTitle);
         if (c.sections?.length) setSections(c.sections);
         // Support sections saved as JSON string from admin
         if (typeof c.sections === 'string' && c.sections.trim()) {
@@ -36,8 +39,9 @@ export default function DynamicPage({ settingsKey, badge, title, subtitle, bread
 
   return (
     <div className="simple-page">
-      <div className="simple-hero">
-        <div className="container">
+      <div className="simple-hero" style={heroImage ? { backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}>
+        {heroImage && <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.55)', zIndex: 0 }} />}
+        <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           {breadcrumb && (
             <nav className="simple-breadcrumb">
               {breadcrumb.map((b, i) => (

@@ -100,8 +100,8 @@ export default function ContactUsPage() {
   return (
     <div className="contact-page-new">
       {/* Hero Section */}
-      <div className="contact-hero-new">
-        <div className="contact-hero-bg"></div>
+      <div className="contact-hero-new" style={pc.heroImage ? { backgroundImage: `url(${pc.heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' } : {}}>
+        <div className="contact-hero-bg" style={pc.heroImage ? { background: 'rgba(0,0,0,0.55)' } : {}}></div>
         <div className="container">
           <nav className="contact-breadcrumb-new">
             <Link href="/">Home</Link>
