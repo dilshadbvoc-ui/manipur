@@ -38,9 +38,6 @@ const Programs = () => {
             <h2 className="section-title">{content.title}</h2>
             <p className="section-subtitle">{content.subtitle}</p>
           </div>
-          <div className="programs-top-right">
-            <Link href="/information-cell" className="btn btn-orange">Explore All</Link>
-          </div>
         </div>
 
         <div className="programs-grid">

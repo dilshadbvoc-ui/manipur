@@ -17,10 +17,10 @@ const SCHOOLS = {
     vision: 'To be a centre of excellence in commerce education, fostering innovation, ethical business practices, and entrepreneurial thinking.',
     mission: 'To provide quality education in commerce and business studies that empowers students with knowledge, skills, and values to succeed in a competitive global economy.',
     highlights: [
-      { icon: '🎓', image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=400', title: 'Industry-Aligned Curriculum', desc: 'Programs designed in consultation with industry experts to meet current market demands.' },
-      { icon: '💼', image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=400', title: 'Placement Support', desc: 'Dedicated placement cell with strong industry connections for career opportunities.' },
-      { icon: '🔬', image: 'https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?auto=format&fit=crop&q=80&w=400', title: 'Research Focus', desc: 'Encourages research in commerce, finance, and business management.' },
-      { icon: '🌐', image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=400', title: 'Global Exposure', desc: 'International collaborations and exchange programs for global perspective.' },
+      { icon: '🎓', image: 'https://picsum.photos/seed/commerce1/400/220', title: 'Industry-Aligned Curriculum', desc: 'Programs designed in consultation with industry experts to meet current market demands.' },
+      { icon: '💼', image: 'https://picsum.photos/seed/commerce2/400/220', title: 'Placement Support', desc: 'Dedicated placement cell with strong industry connections for career opportunities.' },
+      { icon: '🔬', image: 'https://picsum.photos/seed/commerce3/400/220', title: 'Research Focus', desc: 'Encourages research in commerce, finance, and business management.' },
+      { icon: '🌐', image: 'https://picsum.photos/seed/commerce4/400/220', title: 'Global Exposure', desc: 'International collaborations and exchange programs for global perspective.' },
     ],
     programs: [
       { title: 'B.Com (Bachelor of Commerce)', duration: '3 Years', eligibility: '10+2', icon: '📈' },
@@ -40,10 +40,10 @@ const SCHOOLS = {
     vision: 'To be a premier institution for computer science education, producing innovative technologists who drive digital transformation.',
     mission: 'To deliver high-quality computer application education that combines theoretical foundations with hands-on technical skills for real-world problem solving.',
     highlights: [
-      { icon: '🖥️', image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=400', title: 'State-of-the-Art Labs', desc: 'Modern computer labs with latest hardware and software infrastructure.' },
-      { icon: '🤖', image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=400', title: 'AI & ML Focus', desc: 'Specialized tracks in Artificial Intelligence and Machine Learning.' },
-      { icon: '🔐', image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=400', title: 'Cybersecurity', desc: 'Dedicated cybersecurity curriculum for the growing digital security sector.' },
-      { icon: '🚀', image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=400', title: 'Startup Incubation', desc: 'Support for student startups through our incubation center.' },
+      { icon: '🖥️', image: 'https://picsum.photos/seed/it1/400/220', title: 'State-of-the-Art Labs', desc: 'Modern computer labs with latest hardware and software infrastructure.' },
+      { icon: '🤖', image: 'https://picsum.photos/seed/it2/400/220', title: 'AI & ML Focus', desc: 'Specialized tracks in Artificial Intelligence and Machine Learning.' },
+      { icon: '🔐', image: 'https://picsum.photos/seed/it3/400/220', title: 'Cybersecurity', desc: 'Dedicated cybersecurity curriculum for the growing digital security sector.' },
+      { icon: '🚀', image: 'https://picsum.photos/seed/it4/400/220', title: 'Startup Incubation', desc: 'Support for student startups through our incubation center.' },
     ],
     programs: [
       { title: 'BCA (Bachelor of Computer Application)', duration: '3 Years', eligibility: '10+2', icon: '💻' },
@@ -63,10 +63,10 @@ const SCHOOLS = {
     vision: 'To be a leading engineering school that produces technically proficient, innovative, and socially responsible engineers.',
     mission: 'To provide excellence in engineering education through a blend of theoretical knowledge, practical skills, and research that addresses societal needs.',
     highlights: [
-      { icon: '🔧', image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=400', title: 'Advanced Laboratories', desc: 'Fully equipped labs for hands-on learning across all engineering disciplines.' },
-      { icon: '🏭', image: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=400', title: 'Industry Partnerships', desc: 'Strong ties with leading engineering firms for internships and placements.' },
-      { icon: '📐', image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=400', title: 'Project-Based Learning', desc: 'Emphasis on real-world projects and problem-solving from day one.' },
-      { icon: '🌱', image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&q=80&w=400', title: 'Sustainable Engineering', desc: 'Focus on green technologies and sustainable engineering practices.' },
+      { icon: '🔧', image: 'https://picsum.photos/seed/eng1/400/220', title: 'Advanced Laboratories', desc: 'Fully equipped labs for hands-on learning across all engineering disciplines.' },
+      { icon: '🏭', image: 'https://picsum.photos/seed/eng2/400/220', title: 'Industry Partnerships', desc: 'Strong ties with leading engineering firms for internships and placements.' },
+      { icon: '📐', image: 'https://picsum.photos/seed/eng3/400/220', title: 'Project-Based Learning', desc: 'Emphasis on real-world projects and problem-solving from day one.' },
+      { icon: '🌱', image: 'https://picsum.photos/seed/eng4/400/220', title: 'Sustainable Engineering', desc: 'Focus on green technologies and sustainable engineering practices.' },
     ],
     programs: [
       { title: 'B.Tech Civil Engineering', duration: '4 Years', eligibility: '10+2 (PCM)', icon: '🏗️' },
@@ -86,10 +86,10 @@ const SCHOOLS = {
     vision: 'To be a globally recognized management school that nurtures ethical, innovative, and effective business leaders.',
     mission: 'To provide transformative management education that develops critical thinking, leadership skills, and entrepreneurial mindset for sustainable business success.',
     highlights: [
-      { icon: '📋', image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=400', title: 'Case Study Method', desc: 'Learning through real business cases from global and Indian companies.' },
-      { icon: '🤝', image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=400', title: 'Industry Mentorship', desc: 'One-on-one mentorship from senior industry professionals.' },
-      { icon: '🌍', image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=400', title: 'Global Curriculum', desc: 'International business curriculum aligned with global management standards.' },
-      { icon: '📊', image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=400', title: 'Analytics Focus', desc: 'Data-driven decision making and business analytics integrated throughout.' },
+      { icon: '📋', image: 'https://picsum.photos/seed/mgmt1/400/220', title: 'Case Study Method', desc: 'Learning through real business cases from global and Indian companies.' },
+      { icon: '🤝', image: 'https://picsum.photos/seed/mgmt2/400/220', title: 'Industry Mentorship', desc: 'One-on-one mentorship from senior industry professionals.' },
+      { icon: '🌍', image: 'https://picsum.photos/seed/mgmt3/400/220', title: 'Global Curriculum', desc: 'International business curriculum aligned with global management standards.' },
+      { icon: '📊', image: 'https://picsum.photos/seed/mgmt4/400/220', title: 'Analytics Focus', desc: 'Data-driven decision making and business analytics integrated throughout.' },
     ],
     programs: [
       { title: 'BBA (Bachelor of Business Administration)', duration: '3 Years', eligibility: '10+2', icon: '📋' },
@@ -109,10 +109,10 @@ const SCHOOLS = {
     vision: 'To be a centre of scientific excellence that advances knowledge and produces researchers and scientists who address global challenges.',
     mission: 'To provide rigorous science education that combines fundamental principles with cutting-edge research, preparing students for careers in science, research, and technology.',
     highlights: [
-      { icon: '🧪', image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=400', title: 'Research Laboratories', desc: 'Well-equipped research labs for practical scientific exploration.' },
-      { icon: '🌿', image: 'https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&q=80&w=400', title: 'Biodiversity Research', desc: 'Unique focus on Northeast India\'s rich biodiversity and ecology.' },
-      { icon: '🔭', image: 'https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=400', title: 'Interdisciplinary Approach', desc: 'Programs that bridge multiple scientific disciplines for holistic understanding.' },
-      { icon: '📰', image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&q=80&w=400', title: 'Publication Support', desc: 'Encouragement and support for student research publications.' },
+      { icon: '🧪', image: 'https://picsum.photos/seed/sci1/400/220', title: 'Research Laboratories', desc: 'Well-equipped research labs for practical scientific exploration.' },
+      { icon: '🌿', image: 'https://picsum.photos/seed/sci2/400/220', title: 'Biodiversity Research', desc: 'Unique focus on Northeast India\'s rich biodiversity and ecology.' },
+      { icon: '🔭', image: 'https://picsum.photos/seed/sci3/400/220', title: 'Interdisciplinary Approach', desc: 'Programs that bridge multiple scientific disciplines for holistic understanding.' },
+      { icon: '📰', image: 'https://picsum.photos/seed/sci4/400/220', title: 'Publication Support', desc: 'Encouragement and support for student research publications.' },
     ],
     programs: [
       { title: 'B.Sc Physics', duration: '3 Years', eligibility: '10+2 (PCM)', icon: '⚛️' },
@@ -133,10 +133,10 @@ const SCHOOLS = {
     vision: 'To be the leading vocational education institution in Northeast India, producing skilled professionals who drive economic growth.',
     mission: 'To provide industry-relevant vocational education and training that empowers students with practical skills, professional competencies, and entrepreneurial capabilities.',
     highlights: [
-      { icon: '🛠️', image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&q=80&w=400', title: 'Hands-On Training', desc: 'Practical skill development through workshops, labs, and industry visits.' },
-      { icon: '📜', image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=400', title: 'Industry Certifications', desc: 'Programs aligned with national and international skill certification standards.' },
-      { icon: '🤝', image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=400', title: 'Industry Tie-Ups', desc: 'Direct partnerships with industries for apprenticeships and placements.' },
-      { icon: '🚀', image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&q=80&w=400', title: 'Entrepreneurship', desc: 'Support for self-employment and entrepreneurship ventures.' },
+      { icon: '🛠️', image: 'https://picsum.photos/seed/voc1/400/220', title: 'Hands-On Training', desc: 'Practical skill development through workshops, labs, and industry visits.' },
+      { icon: '📜', image: 'https://picsum.photos/seed/voc2/400/220', title: 'Industry Certifications', desc: 'Programs aligned with national and international skill certification standards.' },
+      { icon: '🤝', image: 'https://picsum.photos/seed/voc3/400/220', title: 'Industry Tie-Ups', desc: 'Direct partnerships with industries for apprenticeships and placements.' },
+      { icon: '🚀', image: 'https://picsum.photos/seed/voc4/400/220', title: 'Entrepreneurship', desc: 'Support for self-employment and entrepreneurship ventures.' },
     ],
     programs: [
       { title: 'B.Voc Software Development', duration: '3 Years', eligibility: '10+2', icon: '💻' },
@@ -156,10 +156,10 @@ const SCHOOLS = {
     vision: 'To be a center of excellence in humanities education that fosters critical thinking, cultural understanding, and humanistic values.',
     mission: 'To provide quality education in humanities that develops analytical skills, cultural sensitivity, and ethical reasoning while preserving and promoting cultural heritage.',
     highlights: [
-      { icon: '📖', image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=400', title: 'Rich Literary Tradition', desc: 'Comprehensive study of classical and contemporary literature from diverse cultures.' },
-      { icon: '🌍', image: 'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=400', title: 'Cultural Studies', desc: 'Deep exploration of regional and global cultural traditions and practices.' },
-      { icon: '🎭', image: 'https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&q=80&w=400', title: 'Creative Expression', desc: 'Opportunities for creative writing, drama, and artistic expression.' },
-      { icon: '🔍', image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80&w=400', title: 'Research Excellence', desc: 'Strong emphasis on humanities research and scholarly publications.' },
+      { icon: '📖', image: 'https://picsum.photos/seed/hum1/400/220', title: 'Rich Literary Tradition', desc: 'Comprehensive study of classical and contemporary literature from diverse cultures.' },
+      { icon: '🌍', image: 'https://picsum.photos/seed/hum2/400/220', title: 'Cultural Studies', desc: 'Deep exploration of regional and global cultural traditions and practices.' },
+      { icon: '🎭', image: 'https://picsum.photos/seed/hum3/400/220', title: 'Creative Expression', desc: 'Opportunities for creative writing, drama, and artistic expression.' },
+      { icon: '🔍', image: 'https://picsum.photos/seed/hum4/400/220', title: 'Research Excellence', desc: 'Strong emphasis on humanities research and scholarly publications.' },
     ],
     programs: [
       { title: 'BA English Literature', duration: '3 Years', eligibility: '10+2', icon: '📚' },
