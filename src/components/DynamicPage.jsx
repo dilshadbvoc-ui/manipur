@@ -58,7 +58,7 @@ export default function DynamicPage({ settingsKey, badge, title, subtitle, bread
         {sections.map((sec, i) => (
           <div key={i} className="simple-section">
             {sec.title && <h2 className="simple-sec-title">{sec.title}</h2>}
-            {sec.content && <p className="simple-sec-content">{sec.content}</p>}
+            {sec.content && <p className="simple-sec-content" style={{ whiteSpace: 'pre-line' }}>{sec.content}</p>}
             {sec.items && (
               <ul className="simple-list">
                 {sec.items.map((item, j) => (

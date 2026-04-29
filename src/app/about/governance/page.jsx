@@ -3,14 +3,27 @@ import DynamicPage from '@/components/DynamicPage';
 export default function Page() {
   return <DynamicPage
     settingsKey="dp-governance"
-    badge="ABOUT US" title="Governance"
-    subtitle="MIU is governed by a robust framework ensuring transparency, accountability, and academic excellence."
+    badge="ABOUT US"
+    title="Governance"
+    subtitle="The Manipur International University (MIU) has a well-structured and clear governance system to ensure efficient decision-making processes and improve the quality of academics and administration."
     breadcrumb={[{label:'Home',href:'/'},{label:'About Us',href:'/about'},{label:'Governance'}]}
     defaultSections={[
-      { title: 'Governing Body', content: 'The Governing Body is the apex decision-making authority of Manipur International University. It oversees the strategic direction, financial management, and overall governance of the university, ensuring compliance with UGC regulations and state government guidelines.' },
-      { title: 'Academic Council', content: 'The Academic Council is responsible for maintaining academic standards, approving curricula, and overseeing examination systems. It comprises senior faculty, external experts, and student representatives working together to uphold educational excellence.' },
-      { title: 'IQAC — Internal Quality Assurance Cell', content: 'The IQAC at MIU is dedicated to developing a quality culture within the institution. It coordinates quality-related activities, prepares Annual Quality Assurance Reports (AQAR), and ensures continuous improvement in teaching, research, and administration.' },
-      { title: 'Finance Committee', content: 'The Finance Committee oversees the financial health of the university, approves budgets, and ensures prudent financial management in accordance with regulatory requirements.' },
+      {
+        title: '1. Governing Body',
+        content: 'The Governing Body is the topmost body responsible for the strategic and policy orientation of the institution. This ensures that the institution operates within the scope of its objectives and statutory duties.\n\nResponsibilities:\n· Formulation of policies and strategies\n· Maintenance of compliance with regulatory rules\n· Financial planning and management\n· Development and growth of the university',
+      },
+      {
+        title: '2. Academic Council',
+        content: 'The Academic Council is responsible for monitoring and maintaining high standards of academics within the institution. It is charged with the responsibility to provide quality teaching, learning, and research opportunities at the university level.\n\nResponsibilities:\n· Drafting and approval of academic programs\n· Periodic review and update of academic program curriculums\n· Fostering research culture, innovation, and interdisciplinary studies\n· Implementation of academic quality assurance procedures',
+      },
+      {
+        title: '3. Internal Quality Assurance Cell (IQAC)',
+        content: 'The IQAC plays an important role in institutionalizing quality assurance measures in compliance with NAAC requirements. Its objective is to continuously ensure the highest standards of academic and administrative performance.\n\nResponsibilities:\n· Drawing up and implementing quality standards\n· Conducting academic and administrative reviews\n· Maintaining stakeholder feedback database\n· Preparation of Annual Quality Assurance Report (AQAR) reports\n· Promotion of best practices and innovation',
+      },
+      {
+        title: '4. Finance Committee',
+        content: 'The Finance Committee is the body responsible for managing the finances of the institution efficiently. It is responsible for ensuring proper and efficient utilization of financial resources.\n\nResponsibilities:\n· Review and endorsement of financial plans\n· Monitoring of financial performance\n· Provision of advice for better resource management',
+      },
     ]}
   />;
 }
