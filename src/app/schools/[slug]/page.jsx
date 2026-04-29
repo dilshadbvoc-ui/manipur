@@ -250,7 +250,6 @@ export default function SchoolPage() {
   }, [slug]);
 
   useEffect(() => {
-    if (!schoolData) return;
     API.get('/courses')
       .then(({ data }) => {
         const slugToDBNames = {
@@ -264,8 +263,8 @@ export default function SchoolPage() {
           'school-of-humanities':             ['school of humanities'],
         };
 
-        // For any new/dynamic school, match by schoolData.name
-        const matchNames = slugToDBNames[slug] || [schoolData.name.toLowerCase()];
+        const matchNames = slugToDBNames[slug] || (schoolData ? [schoolData.name.toLowerCase()] : []);
+        if (!matchNames.length) return;
 
         const filtered = data.filter(c => {
           const cSchool = (c.school || '').toLowerCase().trim();
@@ -277,7 +276,7 @@ export default function SchoolPage() {
       })
       .catch((e) => console.error('courses error:', e));
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [schoolData]);
+  }, [slug]);
 
   if (loading) return (
     <div style={{ padding: '160px 20px', textAlign: 'center' }}>
