@@ -1,9 +1,14 @@
-'use client';
-
 import React from 'react';
 import Link from 'next/link';
 import '@/styles/SimplePage.css';
 import '@/styles/About.css';
+
+export const metadata = {
+  title: 'About Us | Manipur International University',
+  description: 'Learn about Manipur International University - our history, vision, mission, leadership, and commitment to academic excellence in Imphal, Manipur.',
+  alternates: { canonical: 'https://miu.edu.in/about' },
+  openGraph: { title: 'About MIU | Manipur International University', description: 'Discover MIU\'s history, vision, and leadership in higher education.', url: 'https://miu.edu.in/about' },
+};
 
 const paragraphs = [
   'Located in the region famous for the Sangai deer, the peaceful Loktak Lake, and the graceful Manipuri dancing, Manipur International University is inspired by its surrounding area and the local people. The university combines the unique culture and natural wealth of its geographical environment in its educational activities.',
