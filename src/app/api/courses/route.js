@@ -6,8 +6,14 @@ import { protect } from '@/lib/auth';
 export async function GET() {
   try {
     await dbConnect();
-    const courses = await Course.find({}).sort({ createdAt: -1 });
-    return NextResponse.json(courses);
+    // Only fetch fields needed for listing — exclude heavy fields like syllabus/objectives
+    const courses = await Course.find({})
+      .select('title specialisation icon description school category order isActive slug coverImage cardImage duration eligibility fee seats mode affiliation highlight')
+      .sort({ order: 1, createdAt: -1 })
+      .lean();
+    return NextResponse.json(courses, {
+      headers: { 'Cache-Control': 's-maxage=60, stale-while-revalidate=300' }
+    });
   } catch (error) {
     console.error('Get courses error:', error);
     return NextResponse.json({ 

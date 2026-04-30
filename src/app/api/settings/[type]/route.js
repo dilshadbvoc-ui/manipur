@@ -7,9 +7,10 @@ export async function GET(request, { params }) {
   try {
     const { type } = await params;
     await dbConnect();
-    const settings = await Settings.findOne({ type });
-    // Return empty content (200) instead of 404 — components handle missing data via defaults
-    return NextResponse.json(settings || { type, content: {} });
+    const settings = await Settings.findOne({ type }).lean();
+    return NextResponse.json(settings || { type, content: {} }, {
+      headers: { 'Cache-Control': 's-maxage=120, stale-while-revalidate=600' }
+    });
   } catch (error) {
     return NextResponse.json({ message: 'Server error' }, { status: 500 });
   }
