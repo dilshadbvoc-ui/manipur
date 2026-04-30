@@ -129,7 +129,7 @@ export default function AffiliationsAccreditationPage() {
             <h2>Ready to Join MIU?</h2>
             <p>Be part of a recognized institution committed to your academic and professional success.</p>
             <div className="aff-cta-buttons">
-              <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="btn btn-orange">Apply Now</a>
+              <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="btn btn-orange">Apply Now</a>
               <Link href="/contact" className="btn btn-outline">Contact Us</Link>
             </div>
           </div>

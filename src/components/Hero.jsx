@@ -57,7 +57,7 @@ const Hero = () => {
           <h1 className="hero-main-title" dangerouslySetInnerHTML={{ __html: title }} />
           <p className="hero-subtext">{subtitle}</p>
           <div className="hero-buttons">
-            <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="btn btn-orange">Admissions 2026</a>
+            <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="btn btn-orange">Admissions 2026</a>
           </div>
           
           <div className="hero-trust-badges">

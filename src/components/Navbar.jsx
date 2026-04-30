@@ -349,7 +349,7 @@ const Navbar = () => {
           </nav>
           
           <div className="nav-actions">
-            <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="apply-blink-btn main-nav-apply">APPLY NOW</a>
+            <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="apply-blink-btn main-nav-apply">APPLY NOW</a>
             <button className="hamburger-btn" onClick={() => setIsMenuOpen(!isMenuOpen)}>
               {isMenuOpen ? '✕' : '☰'}
             </button>

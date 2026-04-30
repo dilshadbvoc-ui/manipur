@@ -89,7 +89,7 @@ const MobileBottomNav = () => {
 
       {/* Bottom Nav Bar */}
       <div className="mobile-bottom-nav">
-        <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="nav-item apply-btn-mobile">
+        <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="nav-item apply-btn-mobile">
           Apply
         </a>
 

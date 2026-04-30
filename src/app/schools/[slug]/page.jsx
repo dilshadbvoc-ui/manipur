@@ -319,7 +319,7 @@ export default function SchoolPage() {
           <div className="school-hero-icon">{schoolData.icon}</div>
           <h1>{schoolData.name}</h1>
           <p className="school-hero-tagline">{schoolData.tagline}</p>
-          <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="btn btn-orange" style={{ marginTop: '20px' }}>Apply Now</a>
+          <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="btn btn-orange" style={{ marginTop: '20px' }}>Apply Now</a>
         </div>
       </div>
 
@@ -414,7 +414,7 @@ export default function SchoolPage() {
                             </div>
                           </Link>
                           <div className="sp-program-apply">
-                            <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="sp-apply-btn">Apply Now</a>
+                            <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="sp-apply-btn">Apply Now</a>
                           </div>
                         </div>
                       );
@@ -439,7 +439,7 @@ export default function SchoolPage() {
             <p>Take the first step towards a rewarding career. Apply for admissions today.</p>
           </div>
           <div className="sp-cta-btns">
-            <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="btn" style={{ background: 'white', color: schoolData.color }}>Apply Now</a>
+            <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="btn" style={{ background: 'white', color: schoolData.color }}>Apply Now</a>
             <Link href="/contact" className="btn" style={{ background: 'transparent', color: 'white', border: '2px solid white' }}>Enquire</Link>
           </div>
         </div>

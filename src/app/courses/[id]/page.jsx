@@ -54,7 +54,7 @@ export default function CourseDetail() {
             {course.seats && <span>🪑 {course.seats} Seats</span>}
           </div>
           <div className="cd-hero-btns">
-            <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="btn btn-orange">Apply Now</a>
+            <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="btn btn-orange">Apply Now</a>
             <button onClick={() => openEnquiry('enquire')} className="btn" style={{ background: 'rgba(255,255,255,0.15)', color: 'white', border: '2px solid rgba(255,255,255,0.4)' }}>Enquire</button>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default function CourseDetail() {
               {course.affiliation && <li><span>Affiliation</span><strong>{course.affiliation}</strong></li>}
               {course.school && <li><span>School</span><strong>{course.school}</strong></li>}
             </ul>
-            <a href="https://admin.miu.edu.in/admission/" target="_blank" rel="noopener noreferrer" className="btn btn-orange" style={{ width: '100%', marginTop: '20px', padding: '14px' }}>Apply Now</a>
+            <a href="https://admission.miu.edu.in" target="_blank" rel="noopener noreferrer" className="btn btn-orange" style={{ width: '100%', marginTop: '20px', padding: '14px' }}>Apply Now</a>
             <button onClick={() => openEnquiry('enquire')} className="btn btn-black" style={{ width: '100%', marginTop: '10px', padding: '14px' }}>Enquire</button>
           </div>
 
