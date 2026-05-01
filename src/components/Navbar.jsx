@@ -209,7 +209,7 @@ const Navbar = () => {
                   LOGIN ▾
                 </button>
                 <ul className="login-dropdown-menu">
-                  <li><a href="http://erpmiu.com/student/" target="_blank" rel="noopener noreferrer">🎓 Student Login</a></li>
+                  <li><a href="https://student.miu.edu.in" target="_blank" rel="noopener noreferrer">🎓 Student Login</a></li>
                   <li><Link href="/admin/login">👨‍💼 Staff Login</Link></li>
                 </ul>
               </li>
@@ -389,7 +389,7 @@ const Navbar = () => {
           <div className="mobile-utility-links">
             <Link href="/news-events" onClick={() => setIsMenuOpen(false)}>HAPPENINGS</Link>
             <Link href="/blog" onClick={() => setIsMenuOpen(false)}>BLOG</Link>
-            <a href="http://erpmiu.com/student/" target="_blank" rel="noopener noreferrer">STUDENT LOGIN</a>
+            <a href="https://student.miu.edu.in" target="_blank" rel="noopener noreferrer">STUDENT LOGIN</a>
             <Link href="/admin/login" onClick={() => setIsMenuOpen(false)}>STAFF LOGIN</Link>
           </div>
         </div>

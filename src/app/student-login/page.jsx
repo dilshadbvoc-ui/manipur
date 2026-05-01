@@ -27,7 +27,7 @@ export default function StudentLogin() {
         // Create a form to POST data to external URL
         const externalForm = document.createElement('form');
         externalForm.method = 'POST';
-        externalForm.action = 'http://erpmiu.com/student/seclogin.php';
+        externalForm.action = 'https://student.miu.edu.in';
         
         // Add enrollment_no field
         const enrollmentInput = document.createElement('input');

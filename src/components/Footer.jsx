@@ -87,7 +87,6 @@ const Footer = () => {
               <li><Link href="/schools/school-of-science">School of Science</Link></li>
               <li><Link href="/schools/school-of-humanities">School of Humanities</Link></li>
               <li><a href="https://vocational.miuskill.in/" target="_blank" rel="noopener noreferrer">School of Vocational Studies</a></li>
-              <li><a href="https://apprenticeship.miuskill.in/details/" target="_blank" rel="noopener noreferrer">Apprenticeship</a></li>
             </ul>
           </div>
 
