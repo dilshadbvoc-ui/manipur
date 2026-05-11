@@ -293,14 +293,8 @@ const Navbar = () => {
                 </ul>
               </li>
 
-              <li className="has-dropdown">
-                <button className="nav-dropdown-btn">RESEARCH <span className="dropdown-plus">+</span></button>
-                <ul className="dropdown-menu">
-                  {isPageActive('/research/overview') && <li><Link href="/research/overview">Research Overview</Link></li>}
-                  {isPageActive('/research/publications') && <li><Link href="/research/publications">Publications</Link></li>}
-                  {isPageActive('/research/projects') && <li><Link href="/research/projects">Research Projects</Link></li>}
-                  <li><Link href="/research/development-cell">R&amp;D Cell</Link></li>
-                </ul>
+              <li>
+                <Link href="/research/development-cell" className="nav-link">RESEARCH</Link>
               </li>
 
               <li className="has-dropdown">
@@ -375,7 +369,7 @@ const Navbar = () => {
               }))
             } />
 
-            <MobileAccordion label="RESEARCH" href="/research" onClose={() => setIsMenuOpen(false)} items={researchItems} />
+            <a href="/research/development-cell" className="mobile-direct-link" onClick={() => setIsMenuOpen(false)}>RESEARCH</a>
 
             <MobileAccordion label="EXAMINATION" href="#" onClose={() => setIsMenuOpen(false)} items={[
               { label: 'Results', href: '/examination/results' },

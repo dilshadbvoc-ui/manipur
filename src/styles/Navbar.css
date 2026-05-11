@@ -1189,3 +1189,28 @@
     display: none !important;
   }
 }
+
+/* Direct nav link (no dropdown) */
+.nav-link {
+  color: white;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 8px 4px;
+  display: block;
+  transition: color 0.2s;
+}
+.nav-link:hover { color: var(--lpu-orange); }
+
+.mobile-direct-link {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  letter-spacing: 0.5px;
+}
+.mobile-direct-link:hover { color: var(--lpu-orange); }
