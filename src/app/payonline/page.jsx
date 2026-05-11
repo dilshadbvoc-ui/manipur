@@ -147,14 +147,13 @@ export default function PayOnlinePage() {
               className={errors.purpose ? 'error' : ''}
             >
               <option value="">-- Select Purpose --</option>
-              <option value="Admission Fee">Admission Fee</option>
+              <option value="Registration Fee">Registration Fee</option>
               <option value="Tuition Fee">Tuition Fee</option>
               <option value="Examination Fee">Examination Fee</option>
-              <option value="Registration Fee">Registration Fee</option>
               <option value="Hostel Fee">Hostel Fee</option>
               <option value="Library Fee">Library Fee</option>
-              <option value="Miscellaneous Fee">Miscellaneous Fee</option>
-              <option value="Other">Other</option>
+              <option value="Authorization Fee">Authorization Fee</option>
+              <option value="Others">Others</option>
             </select>
             {errors.purpose && <span className="pay-error">{errors.purpose}</span>}
           </div>
