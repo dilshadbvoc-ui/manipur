@@ -12,7 +12,7 @@ const DEFAULT_SCHOOLS = [
   { name: 'School Of Engineering', slug: 'school-of-engineering' },
   { name: 'School Of Management', slug: 'school-of-management' },
   { name: 'School Of Science', slug: 'school-of-science' },
-  { name: 'School Of Vocational Studies', slug: 'school-of-vocational-studies', externalUrl: 'https://vocational.miuskill.in/' },
+  { name: 'School Of Vocational Studies', slug: 'school-of-vocational-studies', externalUrl: 'https://vocational.miu.edu.in/' },
   { name: 'School Of Humanities', slug: 'school-of-humanities' },
 ];
 
@@ -93,7 +93,7 @@ const Navbar = () => {
         if (data?.content?.schools?.length) {
           setSchools(data.content.schools.map(s => ({
             ...s,
-            externalUrl: s.slug === 'school-of-vocational-studies' ? 'https://vocational.miuskill.in/' : (s.externalUrl || null),
+            externalUrl: s.slug === 'school-of-vocational-studies' ? 'https://vocational.miu.edu.in/' : (s.externalUrl || null),
           })));
         }
       })
