@@ -245,7 +245,7 @@ export default function SchoolPage() {
   // Redirect vocational studies to external site
   useEffect(() => {
     if (slug === 'school-of-vocational-studies') {
-      window.location.replace('https://vocational.miuskill.in/');
+      window.location.replace('https://vocational.miu.edu.in/');
     }
   }, [slug]);
 
