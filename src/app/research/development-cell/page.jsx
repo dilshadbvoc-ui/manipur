@@ -72,7 +72,7 @@ export default function ResearchDevelopmentCell() {
         {/* Governance Table */}
         <div className="simple-section">
           <h2 className="simple-sec-title">Governance and Constitution of the RDC</h2>
-          <p className="simple-sec-content" style={{ marginBottom: '20px' }}>The RDC operates as a statutory body under Section 36 of the Mahatma Gandhi University Act, 2010. Its governance structure includes:</p>
+          <p className="simple-sec-content" style={{ marginBottom: '20px' }}>The RDC operates as a statutory body under Section 36 of the Manipur International University Act, 2018. Its governance structure includes:</p>
           <div className="rdc-table-wrap">
             <table className="rdc-table">
               <thead>
