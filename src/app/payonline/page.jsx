@@ -56,22 +56,8 @@ export default function PayOnlinePage() {
         return;
       }
 
-      // Build and auto-submit form to Easebuzz
-      const { payload } = data;
-      const gatewayForm = document.createElement('form');
-      gatewayForm.method = 'POST';
-      gatewayForm.action = 'https://pay.easebuzz.in/payment/initiateLink';
-
-      Object.entries(payload).forEach(([key, value]) => {
-        const input = document.createElement('input');
-        input.type  = 'hidden';
-        input.name  = key;
-        input.value = value;
-        gatewayForm.appendChild(input);
-      });
-
-      document.body.appendChild(gatewayForm);
-      gatewayForm.submit();
+      // Redirect directly to Easebuzz payment page
+      window.location.href = data.redirectUrl;
     } catch {
       setServerError('Network error. Please try again.');
       setLoading(false);
