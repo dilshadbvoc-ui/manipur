@@ -170,6 +170,30 @@ const SCHOOLS = {
     ],
     image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=1200',
   },
+  'school-of-allied-health-science': {
+    name: 'School of Allied Health Science',
+    icon: '🏥',
+    color: '#0d6e6e',
+    tagline: 'Caring for the Future of Healthcare',
+    about: 'The School of Allied Health Science at MIU is dedicated to training skilled healthcare professionals in paramedical, diagnostic, therapeutic, and rehabilitation sciences. Our programs combine rigorous academic training with hands-on clinical exposure, preparing graduates to serve as vital members of the modern healthcare team.',
+    vision: 'To be a leading institution in allied health education, producing competent, compassionate, and ethical healthcare professionals who contribute to the well-being of society.',
+    mission: 'To provide quality allied health education through evidence-based curricula, clinical training, and research that empowers students to deliver excellent patient care and advance the healthcare sector.',
+    highlights: [
+      { icon: '🩺', image: 'https://picsum.photos/seed/ahs1/400/220', title: 'Clinical Training', desc: 'Hands-on clinical exposure in hospitals and healthcare facilities from the first year.' },
+      { icon: '🔬', image: 'https://picsum.photos/seed/ahs2/400/220', title: 'Modern Laboratories', desc: 'State-of-the-art labs for anatomy, physiology, microbiology, and diagnostic sciences.' },
+      { icon: '🤝', image: 'https://picsum.photos/seed/ahs3/400/220', title: 'Hospital Tie-Ups', desc: 'Strong partnerships with leading hospitals and diagnostic centres for internships and placements.' },
+      { icon: '📋', image: 'https://picsum.photos/seed/ahs4/400/220', title: 'Industry-Aligned Curriculum', desc: 'Programs designed in line with national health sector skill standards and regulatory guidelines.' },
+    ],
+    programs: [
+      { title: 'B.Sc Medical Laboratory Technology', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '🔬' },
+      { title: 'B.Sc Radiology & Imaging Technology', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '🩻' },
+      { title: 'B.Sc Physiotherapy', duration: '4.5 Years', eligibility: '10+2 (PCB)', icon: '🦾' },
+      { title: 'B.Sc Optometry', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '👁️' },
+      { title: 'B.Sc Operation Theatre Technology', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '🏥' },
+      { title: 'M.Sc Medical Laboratory Technology', duration: '2 Years', eligibility: 'B.Sc MLT', icon: '🧬' },
+    ],
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1200',
+  },
 };
 
 const OTHER_SCHOOLS = [
@@ -180,6 +204,7 @@ const OTHER_SCHOOLS = [
   { name: 'School of Science', slug: 'school-of-science', icon: '🔬' },
   { name: 'School of Vocational Studies', slug: 'school-of-vocational-studies', icon: '🛠️' },
   { name: 'School of Humanities', slug: 'school-of-humanities', icon: '📚' },
+  { name: 'School of Allied Health Science', slug: 'school-of-allied-health-science', icon: '🏥' },
 ];
 
 // Alias so both old and new slugs work
@@ -261,6 +286,7 @@ export default function SchoolPage() {
           'school-of-science':                ['school of science'],
           'school-of-vocational-studies':     ['school of vocational studies'],
           'school-of-humanities':             ['school of humanities'],
+          'school-of-allied-health-science':  ['school of allied health science'],
         };
 
         const matchNames = slugToDBNames[slug] || (schoolData ? [schoolData.name.toLowerCase()] : []);

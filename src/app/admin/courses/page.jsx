@@ -10,7 +10,7 @@ import ImageUploader from '@/components/ImageUploader';
 const DEFAULT_SCHOOLS = [
   'School Of Commerce','School Of Information Technology','School Of Engineering',
   'School Of Management','School Of Science','School Of Vocational Studies',
-  'School Of Humanities',
+  'School Of Humanities','School Of Allied Health Science',
 ];
 
 const EMPTY = {
@@ -52,8 +52,11 @@ export default function CoursesManager() {
           const list = data?.content?.schools;
           if (list?.length) {
             // Convert "School of Fire & Safety" → "School Of Fire & Safety" (title case first word)
-            const names = list.map(s => s.name);
-            setSchools(names);
+            const dbNames = list.map(s => s.name.replace(/\b\w/g, c => c.toUpperCase()));
+            const dbNamesSet = new Set(dbNames.map(n => n.toLowerCase()));
+            // Merge: append any DEFAULT_SCHOOLS not already in DB list
+            const missing = DEFAULT_SCHOOLS.filter(s => !dbNamesSet.has(s.toLowerCase()));
+            setSchools([...dbNames, ...missing]);
           }
         })
         .catch(() => {});

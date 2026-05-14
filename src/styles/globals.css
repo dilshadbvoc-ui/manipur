@@ -289,3 +289,105 @@ button,
 /* ========================================
    END TEXT ALIGNMENT & SPACING FIXES
    ======================================== */
+
+/* ── Advisory Popup ─────────────────────────────────────────── */
+.advisory-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 1rem;
+  animation: advisoryFadeIn 0.3s ease;
+}
+
+@keyframes advisoryFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.advisory-modal {
+  position: relative;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  max-width: 680px;
+  width: 100%;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  animation: advisorySlideUp 0.35s ease;
+  overflow: hidden;
+}
+
+@keyframes advisorySlideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+.advisory-close {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  transition: background 0.2s;
+}
+
+.advisory-close:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.advisory-image-wrapper {
+  overflow-y: auto;
+  flex: 1;
+}
+
+.advisory-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.advisory-footer {
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e5e7eb;
+  background: #f9fafb;
+}
+
+.advisory-btn {
+  background: #1a3c6e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.55rem 2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.advisory-btn:hover {
+  background: #14305a;
+}
+
+@media (max-width: 480px) {
+  .advisory-modal {
+    max-height: 95vh;
+  }
+}
