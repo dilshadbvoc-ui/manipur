@@ -9,6 +9,7 @@ import MobileBottomNav from '@/components/MobileBottomNav';
 import AdminTopBar from '@/components/AdminTopBar';
 import EnquiryPopup from '@/components/EnquiryPopup';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import AdvisoryPopup from '@/components/AdvisoryPopup';
 
 export default function ClientShell({ children }) {
   const [mounted, setMounted] = useState(false);
@@ -42,6 +43,7 @@ export default function ClientShell({ children }) {
               </div>
             </div>
           )}
+          <AdvisoryPopup />
           <Navbar />
           <WhatsAppButton />
           <EnquiryPopup />

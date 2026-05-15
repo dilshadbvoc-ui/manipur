@@ -6,7 +6,6 @@ export async function POST(request) {
     const body = await request.json();
     const { name, email, phone, amount, purpose } = body;
 
-    // Validate required fields
     if (!name || !email || !phone || !amount || !purpose) {
       return NextResponse.json({ message: 'All fields are required' }, { status: 400 });
     }
@@ -18,37 +17,54 @@ export async function POST(request) {
       return NextResponse.json({ message: 'Payment gateway not configured' }, { status: 500 });
     }
 
-    // Generate unique transaction ID
-    const txnid = 'MIU' + Date.now() + Math.random().toString(36).substring(2, 7).toUpperCase();
+    const txnid          = 'MIU' + Date.now() + Math.random().toString(36).substring(2, 7).toUpperCase();
+    const formattedAmount = parseFloat(amount).toFixed(2);
+    const productinfo    = purpose.trim();
+    const firstname      = name.trim();
+    const emailTrimmed   = email.trim();
 
-    // Build hash: key|txnid|amount|productinfo|firstname|email|||||||||||salt
-    const hashString = `${key}|${txnid}|${amount}|${purpose}|${name.trim()}|${email.trim()}|||||||||||${salt}`;
+    // Hash: key|txnid|amount|productinfo|firstname|email|||||||||||salt
+    const hashString = `${key}|${txnid}|${formattedAmount}|${productinfo}|${firstname}|${emailTrimmed}|||||||||||${salt}`;
     const hash = crypto.createHash('sha512').update(hashString).digest('hex');
 
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://miu.edu.in';
 
-    // Split payment — full amount goes to Edtech Innovate Pvt. Ltd
-    // Format matches PHP: json_encode(array("Edtech Innovate Pvt. Ltd" => $amount))
     const splitPayments = JSON.stringify({
-      'Edtech Innovate Pvt. Ltd': parseFloat(parseFloat(amount).toFixed(2)),
+      'Edtech Innovate Pvt. Ltd': parseFloat(formattedAmount),
     });
 
-    const payload = {
+    // Step 1: Call Easebuzz initiateLink to get payment token
+    const params = new URLSearchParams({
       key,
       txnid,
-      amount: parseFloat(amount).toFixed(2),
-      productinfo: purpose,
-      firstname: name.trim(),
-      email: email.trim(),
+      amount: formattedAmount,
+      productinfo,
+      firstname,
+      email: emailTrimmed,
       phone: phone.trim(),
       surl: `${baseUrl}/payonline/success`,
       furl: `${baseUrl}/payonline/failed`,
       hash,
       udf1: '', udf2: '', udf3: '', udf4: '', udf5: '',
       split_payments: splitPayments,
-    };
+    });
 
-    return NextResponse.json({ success: true, payload });
+    const ebRes = await fetch('https://pay.easebuzz.in/payment/initiateLink', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: params.toString(),
+    });
+
+    const ebData = await ebRes.json();
+
+    if (ebData.status !== 1) {
+      return NextResponse.json({ message: ebData.error_desc || 'Payment initiation failed' }, { status: 400 });
+    }
+
+    // Step 2: Return the redirect URL to the frontend
+    const redirectUrl = `https://pay.easebuzz.in/pay/${ebData.data}`;
+    return NextResponse.json({ success: true, redirectUrl });
+
   } catch (error) {
     console.error('Payment initiate error:', error);
     return NextResponse.json({ message: 'Server error' }, { status: 500 });

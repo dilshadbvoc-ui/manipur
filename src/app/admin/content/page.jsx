@@ -231,6 +231,7 @@ export default function ContentManager() {
     { name: 'School of Management', slug: 'school-of-management', desc: 'Developing tomorrow\'s leaders.', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600' },
     { name: 'School of Science', slug: 'school-of-science', desc: 'Discovering the world through science.', image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=600' },
     { name: 'School of Vocational Studies', slug: 'school-of-vocational-studies', desc: 'Skills for the real world.', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600' },
+    { name: 'School of Allied Health Science', slug: 'school-of-allied-health-science', desc: 'Training compassionate healthcare professionals.', image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600' },
   ];
   const [schoolsSection, setSchoolsSection] = useState({ badge: 'ACADEMICS', title: 'Schools & Faculties', subtitle: 'Our Schools and Faculties bring together experienced academicians.', schools: DEFAULT_SCHOOLS });
 
@@ -440,6 +441,30 @@ export default function ContentManager() {
         { title: 'MA History', duration: '2 Years', eligibility: 'BA History', icon: '📜' },
       ],
       image: 'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&q=80&w=1200',
+    },
+    'school-of-allied-health-science': {
+      name: 'School of Allied Health Science',
+      icon: '🏥',
+      color: '#0d6e6e',
+      tagline: 'Caring for the Future of Healthcare',
+      about: 'The School of Allied Health Science at MIU is dedicated to training skilled healthcare professionals in paramedical, diagnostic, therapeutic, and rehabilitation sciences. Our programs combine rigorous academic training with hands-on clinical exposure, preparing graduates to serve as vital members of the modern healthcare team.',
+      vision: 'To be a leading institution in allied health education, producing competent, compassionate, and ethical healthcare professionals who contribute to the well-being of society.',
+      mission: 'To provide quality allied health education through evidence-based curricula, clinical training, and research that empowers students to deliver excellent patient care and advance the healthcare sector.',
+      highlights: [
+        { icon: '🩺', title: 'Clinical Training', desc: 'Hands-on clinical exposure in hospitals and healthcare facilities from the first year.' },
+        { icon: '🔬', title: 'Modern Laboratories', desc: 'State-of-the-art labs for anatomy, physiology, microbiology, and diagnostic sciences.' },
+        { icon: '🤝', title: 'Hospital Tie-Ups', desc: 'Strong partnerships with leading hospitals and diagnostic centres for internships and placements.' },
+        { icon: '📋', title: 'Industry-Aligned Curriculum', desc: 'Programs designed in line with national health sector skill standards and regulatory guidelines.' },
+      ],
+      programs: [
+        { title: 'B.Sc Medical Laboratory Technology', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '🔬' },
+        { title: 'B.Sc Radiology & Imaging Technology', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '🩻' },
+        { title: 'B.Sc Physiotherapy', duration: '4.5 Years', eligibility: '10+2 (PCB)', icon: '🦾' },
+        { title: 'B.Sc Optometry', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '👁️' },
+        { title: 'B.Sc Operation Theatre Technology', duration: '3 Years', eligibility: '10+2 (PCB)', icon: '🏥' },
+        { title: 'M.Sc Medical Laboratory Technology', duration: '2 Years', eligibility: 'B.Sc MLT', icon: '🧬' },
+      ],
+      image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=1200',
     },
   };
   const [schoolDetails, setSchoolDetails] = useState(DEFAULT_SCHOOL_DETAILS);

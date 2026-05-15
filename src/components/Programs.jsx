@@ -12,6 +12,7 @@ const DEFAULT_SCHOOLS = [
   { name: 'School of Management', slug: 'school-of-management', desc: 'Developing strategic thinkers and effective managers equipped for leadership in a dynamic global economy.', image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=600' },
   { name: 'School of Science', slug: 'school-of-science', desc: 'Fostering scientific inquiry, research excellence, and innovation across core and applied science disciplines.', image: 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?auto=format&fit=crop&q=80&w=600' },
   { name: 'School of Vocational Studies', slug: 'school-of-vocational-studies', desc: 'Bridging education and employment with skill-based programs aligned with industry needs.', image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=600', externalUrl: 'https://vocational.miu.edu.in/' },
+  { name: 'School of Allied Health Science', slug: 'school-of-allied-health-science', desc: 'Training compassionate healthcare professionals in paramedical, diagnostic, and therapeutic sciences.', image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=600' },
 ];
 
 const Programs = () => {
@@ -22,7 +23,13 @@ const Programs = () => {
     API.get('/settings/schools-section')
       .then(({ data }) => {
         if (data?.content) {
-          if (data.content.schools?.length) setSchools(data.content.schools);
+          if (data.content.schools?.length) {
+            const dbSchools = data.content.schools;
+            // Merge: append any DEFAULT_SCHOOLS not already in DB list
+            const dbSlugs = new Set(dbSchools.map(s => s.slug));
+            const missing = DEFAULT_SCHOOLS.filter(s => !dbSlugs.has(s.slug));
+            setSchools([...dbSchools, ...missing]);
+          }
           setContent(prev => ({ ...prev, ...data.content }));
         }
       })

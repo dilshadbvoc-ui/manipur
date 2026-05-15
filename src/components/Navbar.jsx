@@ -14,6 +14,7 @@ const DEFAULT_SCHOOLS = [
   { name: 'School Of Science', slug: 'school-of-science' },
   { name: 'School Of Vocational Studies', slug: 'school-of-vocational-studies', externalUrl: 'https://vocational.miu.edu.in/' },
   { name: 'School Of Humanities', slug: 'school-of-humanities' },
+  { name: 'School Of Allied Health Science', slug: 'school-of-allied-health-science' },
 ];
 
 const MobileAccordion = ({ label, href, items, onClose }) => {
@@ -91,10 +92,14 @@ const Navbar = () => {
       .then(r => r.json())
       .then(data => {
         if (data?.content?.schools?.length) {
-          setSchools(data.content.schools.map(s => ({
+          const dbSchools = data.content.schools.map(s => ({
             ...s,
             externalUrl: s.slug === 'school-of-vocational-studies' ? 'https://vocational.miu.edu.in/' : (s.externalUrl || null),
-          })));
+          }));
+          // Merge: add any DEFAULT_SCHOOLS entries not already in DB list
+          const dbSlugs = new Set(dbSchools.map(s => s.slug));
+          const missing = DEFAULT_SCHOOLS.filter(s => !dbSlugs.has(s.slug));
+          setSchools([...dbSchools, ...missing]);
         }
       })
       .catch(() => {});
