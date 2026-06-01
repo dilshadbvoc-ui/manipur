@@ -1,10 +1,11 @@
-import LeadershipDetail from '@/components/LeadershipDetail';
+import LeadershipDetail from "@/components/LeadershipDetail";
 
 export const metadata = {
-  title: "Vice Chancellor's Message | Manipur International University",
-  description: "Message from the Vice Chancellor of Manipur International University.",
+  title: "Vice-Chancellor | Manipur International University (MIU)",
+  description:
+    "Message from the Vice-Chancellor of Manipur International University, Imphal. Our academic vision and student commitment.",
   alternates: {
-    canonical: 'https://miu.edu.in/about/leadership/vice-chancellor',
+    canonical: "https://miu.edu.in/about/leadership/vice-chancellor",
   },
 };
 
