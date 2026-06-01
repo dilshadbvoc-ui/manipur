@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { AuthProvider } from '@/context/AuthContext';
-import { EnquiryProvider, useEnquiry } from '@/context/EnquiryContext';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
-import MobileBottomNav from '@/components/MobileBottomNav';
-import AdminTopBar from '@/components/AdminTopBar';
-import EnquiryPopup from '@/components/EnquiryPopup';
-import WhatsAppButton from '@/components/WhatsAppButton';
-import AdvisoryPopup from '@/components/AdvisoryPopup';
+import React, { useState, useEffect } from "react";
+import { AuthProvider } from "@/context/AuthContext";
+import { EnquiryProvider, useEnquiry } from "@/context/EnquiryContext";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import MobileBottomNav from "@/components/MobileBottomNav";
+import AdminTopBar from "@/components/AdminTopBar";
+import EnquiryPopup from "@/components/EnquiryPopup";
+import WhatsAppButton from "@/components/WhatsAppButton";
+import AdvisoryPopup from "@/components/AdvisoryPopup";
 
 export default function ClientShell({ children }) {
   const [mounted, setMounted] = useState(false);
@@ -32,7 +32,7 @@ export default function ClientShell({ children }) {
         <AdminTopBar />
         <div className="app-container">
           {mounted && showSplash && (
-            <div className={`splash-screen ${fadeSplash ? 'fade-out' : ''}`}>
+            <div className={`splash-screen ${fadeSplash ? "fade-out" : ""}`}>
               <div className="splash-content">
                 <img src="/emblem.png" alt="MIU Logo" className="splash-logo" />
                 <div className="splash-miu-blocks">
@@ -43,7 +43,7 @@ export default function ClientShell({ children }) {
               </div>
             </div>
           )}
-          <AdvisoryPopup />
+          {/* <AdvisoryPopup /> */}
           <Navbar />
           <WhatsAppButton />
           <EnquiryPopup />
