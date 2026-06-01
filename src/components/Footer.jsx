@@ -8,7 +8,7 @@ import "@/styles/Footer.css";
 const DEFAULTS = {
   aboutText:
     "Transforming education with a globally recognized curriculum, industry-oriented learning, and an unwavering commitment to student success.",
-  address: "Manipur International University, Imphal, Manipur, India - 795001",
+  address: "MIU Palace, Airport Road, Ghari, Imphal, Manipur 795140",
   phone: "+91 9319727766",
   email: "admission@miu.edu.in",
   facebook: "https://www.facebook.com/ManipurInternationalUniversityOfficial/",
