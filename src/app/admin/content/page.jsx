@@ -1406,6 +1406,7 @@ export default function ContentManager() {
   }, [user]);
 
   const save = async (type, content) => {
+    console.log(content);
     setSaving(true);
     setMsg("");
     try {
@@ -1847,7 +1848,6 @@ export default function ContentManager() {
                     + Add Paragraph
                   </button>
                 </div>
-
                 {/* Signature */}
                 <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
                   <div style={{ flex: 1, minWidth: "180px" }}>

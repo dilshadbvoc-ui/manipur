@@ -191,7 +191,7 @@ const MobileBottomNav = () => {
         </a>
 
         <a
-          href="https://wa.me/919319771500"
+          href="https://wa.me/919319727766"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-item"

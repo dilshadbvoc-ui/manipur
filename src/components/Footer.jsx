@@ -21,7 +21,6 @@ const DEFAULTS = {
 
 const Footer = () => {
   const [d, setD] = useState(DEFAULTS);
-
   useEffect(() => {
     API.get("/settings/footer")
       .then(({ data }) => {
